@@ -1,0 +1,501 @@
+expense_id,date,neighborhood,amount,category
+E-0,2023-04-11,West Side,48963,infrastructure
+E-1,2021-08-28,East Montgomery,29686,infrastructure
+E-2,2024-03-08,West Side,39400,infrastructure
+E-3,2021-08-13,Cloverdale,19661,infrastructure
+E-4,2022-05-01,Capitol Heights,20936,infrastructure
+E-5,2022-10-08,Capitol Heights,17864,infrastructure
+E-6,2021-04-26,Capitol Heights,14772,infrastructure
+E-7,2022-10-16,East Montgomery,37047,infrastructure
+E-8,2021-08-04,Capitol Heights,11174,infrastructure
+E-9,2024-09-03,Cloverdale,32161,infrastructure
+E-10,2024-11-07,Downtown,44042,infrastructure
+E-11,2023-10-24,Capitol Heights,32596,infrastructure
+E-12,2024-02-08,Downtown,7587,infrastructure
+E-13,2024-09-01,Cloverdale,2715,infrastructure
+E-14,2022-07-21,East Montgomery,12646,infrastructure
+E-15,2022-07-21,West Side,30644,infrastructure
+E-16,2022-12-05,Downtown,34881,infrastructure
+E-17,2024-12-29,West Side,9157,infrastructure
+E-18,2023-07-17,Downtown,22552,infrastructure
+E-19,2022-10-22,Downtown,29604,infrastructure
+E-20,2024-11-11,Capitol Heights,31832,infrastructure
+E-21,2024-10-28,Cloverdale,39693,infrastructure
+E-22,2021-01-14,Capitol Heights,12251,infrastructure
+E-23,2021-05-04,Capitol Heights,20204,infrastructure
+E-24,2021-01-21,East Montgomery,11739,infrastructure
+E-25,2024-09-15,East Montgomery,22370,infrastructure
+E-26,2021-06-15,Capitol Heights,26047,infrastructure
+E-27,2021-09-05,East Montgomery,27196,infrastructure
+E-28,2024-09-27,West Side,35813,infrastructure
+E-29,2024-12-21,Cloverdale,10667,infrastructure
+E-30,2022-02-18,East Montgomery,30673,infrastructure
+E-31,2024-12-21,West Side,7315,infrastructure
+E-32,2024-10-31,Downtown,27278,infrastructure
+E-33,2021-03-08,Downtown,27399,infrastructure
+E-34,2023-03-30,West Side,45771,infrastructure
+E-35,2024-12-14,Cloverdale,35435,infrastructure
+E-36,2024-02-22,Capitol Heights,29815,infrastructure
+E-37,2023-05-25,Downtown,38750,infrastructure
+E-38,2024-08-11,Cloverdale,33257,infrastructure
+E-39,2021-04-02,Capitol Heights,24055,infrastructure
+E-40,2021-09-04,East Montgomery,43912,infrastructure
+E-41,2023-06-28,Capitol Heights,34928,infrastructure
+E-42,2024-08-30,Capitol Heights,15144,infrastructure
+E-43,2021-04-25,East Montgomery,17503,infrastructure
+E-44,2021-09-05,East Montgomery,2658,infrastructure
+E-45,2024-02-05,Cloverdale,41835,infrastructure
+E-46,2024-11-13,Cloverdale,3082,infrastructure
+E-47,2024-12-18,West Side,3235,infrastructure
+E-48,2023-10-10,Downtown,43058,infrastructure
+E-49,2022-05-08,West Side,29208,infrastructure
+E-50,2022-02-25,Downtown,35136,infrastructure
+E-51,2023-02-14,East Montgomery,36296,infrastructure
+E-52,2021-05-12,Downtown,41384,infrastructure
+E-53,2023-09-03,Cloverdale,29271,infrastructure
+E-54,2023-12-30,Cloverdale,34184,infrastructure
+E-55,2024-12-26,Downtown,2710,infrastructure
+E-56,2023-12-22,Capitol Heights,1485,infrastructure
+E-57,2022-02-20,Downtown,42438,infrastructure
+E-58,2024-09-03,Capitol Heights,47022,infrastructure
+E-59,2023-05-23,Capitol Heights,7380,infrastructure
+E-60,2024-04-05,East Montgomery,14708,infrastructure
+E-61,2022-02-20,East Montgomery,49636,infrastructure
+E-62,2022-03-09,East Montgomery,24320,infrastructure
+E-63,2023-05-23,Capitol Heights,3630,infrastructure
+E-64,2021-05-22,East Montgomery,9781,infrastructure
+E-65,2023-02-15,Capitol Heights,32697,infrastructure
+E-66,2022-02-08,West Side,18736,infrastructure
+E-67,2022-10-01,Downtown,37610,infrastructure
+E-68,2021-11-21,Cloverdale,17822,infrastructure
+E-69,2021-12-20,East Montgomery,21451,infrastructure
+E-70,2024-06-18,East Montgomery,39165,infrastructure
+E-71,2021-09-09,Downtown,30585,infrastructure
+E-72,2024-02-12,Cloverdale,11356,infrastructure
+E-73,2024-08-23,Cloverdale,39858,infrastructure
+E-74,2024-08-12,West Side,3170,infrastructure
+E-75,2023-10-25,Downtown,49223,infrastructure
+E-76,2023-02-01,West Side,37625,infrastructure
+E-77,2024-08-09,Capitol Heights,26834,infrastructure
+E-78,2024-07-13,East Montgomery,37411,infrastructure
+E-79,2023-05-26,Capitol Heights,34406,infrastructure
+E-80,2024-02-28,West Side,26827,infrastructure
+E-81,2023-02-28,West Side,45715,infrastructure
+E-82,2022-07-16,Cloverdale,16396,infrastructure
+E-83,2021-06-02,West Side,6401,infrastructure
+E-84,2021-03-26,West Side,15674,infrastructure
+E-85,2021-10-05,East Montgomery,7095,infrastructure
+E-86,2024-01-14,West Side,22543,infrastructure
+E-87,2023-08-06,Capitol Heights,14403,infrastructure
+E-88,2023-12-24,Downtown,31742,infrastructure
+E-89,2023-04-13,East Montgomery,42218,infrastructure
+E-90,2021-12-26,East Montgomery,21149,infrastructure
+E-91,2021-06-08,West Side,37011,infrastructure
+E-92,2021-05-03,East Montgomery,10626,infrastructure
+E-93,2024-10-04,Capitol Heights,27724,infrastructure
+E-94,2024-03-15,Downtown,8689,infrastructure
+E-95,2021-03-07,West Side,9575,infrastructure
+E-96,2021-05-21,Downtown,4503,infrastructure
+E-97,2024-01-29,Downtown,47528,infrastructure
+E-98,2024-11-23,East Montgomery,42427,infrastructure
+E-99,2021-04-17,West Side,13151,infrastructure
+E-100,2022-12-20,East Montgomery,33064,infrastructure
+E-101,2022-05-19,East Montgomery,21618,infrastructure
+E-102,2023-08-11,East Montgomery,31414,infrastructure
+E-103,2023-07-17,West Side,8002,infrastructure
+E-104,2024-08-04,East Montgomery,3579,infrastructure
+E-105,2024-12-12,Downtown,20438,infrastructure
+E-106,2022-04-23,Cloverdale,7166,infrastructure
+E-107,2024-08-23,East Montgomery,47104,infrastructure
+E-108,2023-04-29,Downtown,21743,infrastructure
+E-109,2023-06-26,Downtown,13526,infrastructure
+E-110,2024-09-10,Capitol Heights,40472,infrastructure
+E-111,2022-07-02,West Side,4701,infrastructure
+E-112,2022-05-04,Capitol Heights,13345,infrastructure
+E-113,2021-10-10,Capitol Heights,35089,infrastructure
+E-114,2021-12-31,Cloverdale,3791,infrastructure
+E-115,2021-02-06,West Side,49725,infrastructure
+E-116,2023-02-15,Capitol Heights,11527,infrastructure
+E-117,2024-12-23,Cloverdale,10446,infrastructure
+E-118,2023-08-19,Cloverdale,7824,infrastructure
+E-119,2021-10-16,East Montgomery,46270,infrastructure
+E-120,2021-03-25,Downtown,24688,infrastructure
+E-121,2021-11-15,West Side,27271,infrastructure
+E-122,2024-01-14,Downtown,2284,infrastructure
+E-123,2024-12-12,Downtown,27498,infrastructure
+E-124,2021-11-19,East Montgomery,21278,infrastructure
+E-125,2021-08-24,West Side,3490,infrastructure
+E-126,2023-02-04,Capitol Heights,9191,infrastructure
+E-127,2023-07-21,East Montgomery,33093,infrastructure
+E-128,2022-02-04,West Side,30225,infrastructure
+E-129,2024-07-05,East Montgomery,43646,infrastructure
+E-130,2023-03-05,Downtown,38389,infrastructure
+E-131,2021-02-12,West Side,33882,infrastructure
+E-132,2023-02-02,East Montgomery,49199,infrastructure
+E-133,2021-10-13,Cloverdale,18250,infrastructure
+E-134,2021-10-10,East Montgomery,27594,infrastructure
+E-135,2024-07-02,East Montgomery,5603,infrastructure
+E-136,2022-09-14,Downtown,4134,infrastructure
+E-137,2021-06-23,West Side,23186,infrastructure
+E-138,2021-01-13,East Montgomery,1925,infrastructure
+E-139,2022-05-20,Downtown,28341,infrastructure
+E-140,2021-07-27,Cloverdale,42758,infrastructure
+E-141,2024-10-23,Cloverdale,23162,infrastructure
+E-142,2024-05-08,West Side,49525,infrastructure
+E-143,2022-02-21,West Side,8591,infrastructure
+E-144,2021-04-28,Downtown,41650,infrastructure
+E-145,2024-03-02,Downtown,1443,infrastructure
+E-146,2022-04-12,West Side,14239,infrastructure
+E-147,2022-10-21,East Montgomery,33965,infrastructure
+E-148,2021-01-26,Cloverdale,20383,infrastructure
+E-149,2021-03-04,West Side,31207,infrastructure
+E-150,2021-06-13,Cloverdale,43394,infrastructure
+E-151,2022-07-22,Downtown,7051,infrastructure
+E-152,2022-01-14,West Side,16298,infrastructure
+E-153,2021-05-31,Capitol Heights,19488,infrastructure
+E-154,2022-06-13,West Side,13536,infrastructure
+E-155,2023-07-12,Capitol Heights,8078,infrastructure
+E-156,2021-03-19,Capitol Heights,40848,infrastructure
+E-157,2024-12-07,Capitol Heights,3892,infrastructure
+E-158,2023-12-18,Capitol Heights,17454,infrastructure
+E-159,2023-04-14,West Side,41789,infrastructure
+E-160,2023-12-04,Capitol Heights,16878,infrastructure
+E-161,2024-04-23,Downtown,17521,infrastructure
+E-162,2022-12-26,East Montgomery,34278,infrastructure
+E-163,2023-04-07,Downtown,40579,infrastructure
+E-164,2024-03-21,Cloverdale,24418,infrastructure
+E-165,2024-07-17,West Side,14319,infrastructure
+E-166,2021-04-11,Downtown,43295,infrastructure
+E-167,2021-08-11,Cloverdale,41020,infrastructure
+E-168,2023-08-28,West Side,38262,infrastructure
+E-169,2024-04-03,Capitol Heights,35760,infrastructure
+E-170,2023-01-28,Capitol Heights,5705,infrastructure
+E-171,2023-01-20,Downtown,17675,infrastructure
+E-172,2024-06-26,West Side,30614,infrastructure
+E-173,2021-12-27,Capitol Heights,49964,infrastructure
+E-174,2022-01-02,Cloverdale,44578,infrastructure
+E-175,2021-12-19,Downtown,47662,infrastructure
+E-176,2021-05-02,East Montgomery,38439,infrastructure
+E-177,2023-04-24,Capitol Heights,3536,infrastructure
+E-178,2023-09-16,East Montgomery,2083,infrastructure
+E-179,2022-07-20,Cloverdale,10642,infrastructure
+E-180,2023-02-26,Downtown,11655,infrastructure
+E-181,2021-05-02,East Montgomery,37082,infrastructure
+E-182,2023-03-04,Cloverdale,1724,infrastructure
+E-183,2021-10-03,Capitol Heights,44711,infrastructure
+E-184,2021-08-21,Capitol Heights,2969,infrastructure
+E-185,2022-11-07,West Side,45001,infrastructure
+E-186,2023-01-24,Cloverdale,7484,infrastructure
+E-187,2021-08-16,East Montgomery,1912,infrastructure
+E-188,2024-07-16,East Montgomery,2104,infrastructure
+E-189,2024-06-19,Downtown,2845,infrastructure
+E-190,2023-04-14,West Side,7798,infrastructure
+E-191,2022-10-19,West Side,8826,infrastructure
+E-192,2022-04-05,Downtown,27280,infrastructure
+E-193,2022-09-03,Downtown,24609,infrastructure
+E-194,2023-01-07,Downtown,48740,infrastructure
+E-195,2021-04-24,Cloverdale,4302,infrastructure
+E-196,2022-11-24,Downtown,30489,infrastructure
+E-197,2023-03-07,Capitol Heights,46340,infrastructure
+E-198,2022-06-29,Cloverdale,22192,infrastructure
+E-199,2023-11-26,Capitol Heights,20590,infrastructure
+E-200,2022-04-26,Cloverdale,49025,infrastructure
+E-201,2023-09-02,East Montgomery,36704,infrastructure
+E-202,2024-02-19,Capitol Heights,24012,infrastructure
+E-203,2021-03-07,East Montgomery,8682,infrastructure
+E-204,2022-06-05,Capitol Heights,48084,infrastructure
+E-205,2022-01-10,Downtown,16968,infrastructure
+E-206,2021-11-27,West Side,7069,infrastructure
+E-207,2022-01-01,East Montgomery,15666,infrastructure
+E-208,2022-05-13,East Montgomery,9571,infrastructure
+E-209,2021-02-27,West Side,25126,infrastructure
+E-210,2021-02-28,Capitol Heights,33474,infrastructure
+E-211,2024-09-17,Capitol Heights,12749,infrastructure
+E-212,2021-08-01,East Montgomery,27524,infrastructure
+E-213,2024-11-29,Downtown,15583,infrastructure
+E-214,2022-01-19,East Montgomery,5297,infrastructure
+E-215,2021-06-23,Cloverdale,22382,infrastructure
+E-216,2023-04-26,Capitol Heights,4994,infrastructure
+E-217,2021-04-05,Downtown,18399,infrastructure
+E-218,2023-06-16,West Side,39877,infrastructure
+E-219,2024-07-04,Capitol Heights,27213,infrastructure
+E-220,2022-02-15,Capitol Heights,23611,infrastructure
+E-221,2023-10-27,East Montgomery,36715,infrastructure
+E-222,2021-11-23,West Side,7253,infrastructure
+E-223,2023-04-24,Cloverdale,29006,infrastructure
+E-224,2024-05-26,Cloverdale,49942,infrastructure
+E-225,2024-03-10,Cloverdale,22955,infrastructure
+E-226,2024-06-12,Downtown,4113,infrastructure
+E-227,2023-03-12,West Side,22173,infrastructure
+E-228,2022-12-04,East Montgomery,43703,infrastructure
+E-229,2022-09-07,East Montgomery,1497,infrastructure
+E-230,2021-03-28,Capitol Heights,36796,infrastructure
+E-231,2021-10-04,Cloverdale,39583,infrastructure
+E-232,2024-12-18,Capitol Heights,2398,infrastructure
+E-233,2024-02-28,Downtown,23078,infrastructure
+E-234,2022-09-08,Cloverdale,27479,infrastructure
+E-235,2022-04-27,Downtown,27592,infrastructure
+E-236,2021-08-13,Capitol Heights,43157,infrastructure
+E-237,2021-12-16,Downtown,22811,infrastructure
+E-238,2023-05-23,East Montgomery,44196,infrastructure
+E-239,2024-07-26,Downtown,16707,infrastructure
+E-240,2024-02-26,Capitol Heights,3729,infrastructure
+E-241,2023-06-22,Cloverdale,23268,infrastructure
+E-242,2023-10-06,Downtown,2479,infrastructure
+E-243,2022-02-04,Capitol Heights,32883,infrastructure
+E-244,2021-11-21,Cloverdale,24598,infrastructure
+E-245,2023-10-23,Cloverdale,49606,infrastructure
+E-246,2023-04-04,East Montgomery,45471,infrastructure
+E-247,2024-11-05,Cloverdale,5475,infrastructure
+E-248,2021-05-08,Capitol Heights,17600,infrastructure
+E-249,2022-03-27,Downtown,10160,infrastructure
+E-250,2022-07-27,Downtown,7230,infrastructure
+E-251,2024-06-17,East Montgomery,25742,infrastructure
+E-252,2023-06-09,Cloverdale,37465,infrastructure
+E-253,2021-10-17,Downtown,47892,infrastructure
+E-254,2021-02-10,West Side,26047,infrastructure
+E-255,2021-10-28,East Montgomery,31839,infrastructure
+E-256,2021-12-23,Capitol Heights,43683,infrastructure
+E-257,2021-05-16,West Side,48294,infrastructure
+E-258,2022-10-31,West Side,33593,infrastructure
+E-259,2021-10-22,East Montgomery,14822,infrastructure
+E-260,2022-11-21,Cloverdale,33522,infrastructure
+E-261,2022-10-07,Capitol Heights,35604,infrastructure
+E-262,2022-11-26,Downtown,39404,infrastructure
+E-263,2023-04-25,Cloverdale,15343,infrastructure
+E-264,2021-06-09,East Montgomery,45412,infrastructure
+E-265,2023-01-27,West Side,22789,infrastructure
+E-266,2022-06-14,Cloverdale,25784,infrastructure
+E-267,2021-03-16,East Montgomery,13525,infrastructure
+E-268,2022-09-24,Cloverdale,22975,infrastructure
+E-269,2021-04-21,Downtown,17209,infrastructure
+E-270,2022-02-10,Capitol Heights,21772,infrastructure
+E-271,2023-09-20,Cloverdale,37677,infrastructure
+E-272,2023-02-09,East Montgomery,2138,infrastructure
+E-273,2022-07-15,Capitol Heights,15701,infrastructure
+E-274,2021-09-01,West Side,11934,infrastructure
+E-275,2021-10-24,East Montgomery,44653,infrastructure
+E-276,2023-02-20,Cloverdale,23958,infrastructure
+E-277,2022-03-01,Downtown,2339,infrastructure
+E-278,2021-03-07,West Side,13278,infrastructure
+E-279,2022-06-10,Capitol Heights,14095,infrastructure
+E-280,2024-06-24,West Side,30431,infrastructure
+E-281,2023-03-05,East Montgomery,1768,infrastructure
+E-282,2022-04-08,Capitol Heights,7984,infrastructure
+E-283,2024-04-07,West Side,33553,infrastructure
+E-284,2023-07-21,East Montgomery,19125,infrastructure
+E-285,2024-01-17,Capitol Heights,22817,infrastructure
+E-286,2023-02-06,Capitol Heights,38454,infrastructure
+E-287,2021-10-18,Downtown,3807,infrastructure
+E-288,2021-03-16,Downtown,14274,infrastructure
+E-289,2021-12-21,Cloverdale,39474,infrastructure
+E-290,2021-10-22,Capitol Heights,29392,infrastructure
+E-291,2021-02-16,West Side,9153,infrastructure
+E-292,2021-07-10,Capitol Heights,17146,infrastructure
+E-293,2022-07-01,Capitol Heights,32390,infrastructure
+E-294,2023-03-30,East Montgomery,14601,infrastructure
+E-295,2023-01-11,Downtown,47690,infrastructure
+E-296,2023-01-26,West Side,44843,infrastructure
+E-297,2024-07-02,Capitol Heights,28062,infrastructure
+E-298,2021-01-10,Capitol Heights,8979,infrastructure
+E-299,2023-07-01,Capitol Heights,43307,infrastructure
+E-300,2024-11-20,Cloverdale,39307,infrastructure
+E-301,2021-11-27,East Montgomery,35314,infrastructure
+E-302,2024-04-11,West Side,6318,infrastructure
+E-303,2024-04-05,Downtown,49038,infrastructure
+E-304,2024-05-29,Downtown,10420,infrastructure
+E-305,2024-05-07,Capitol Heights,33390,infrastructure
+E-306,2023-06-30,Cloverdale,46835,infrastructure
+E-307,2024-03-22,East Montgomery,19540,infrastructure
+E-308,2023-04-22,Cloverdale,3700,infrastructure
+E-309,2023-10-21,East Montgomery,41286,infrastructure
+E-310,2022-11-10,Downtown,34364,infrastructure
+E-311,2022-07-14,East Montgomery,17511,infrastructure
+E-312,2021-08-23,West Side,34166,infrastructure
+E-313,2022-08-28,Cloverdale,23127,infrastructure
+E-314,2022-09-09,East Montgomery,33600,infrastructure
+E-315,2022-11-14,Cloverdale,6710,infrastructure
+E-316,2021-02-24,Capitol Heights,32042,infrastructure
+E-317,2021-09-22,East Montgomery,45894,infrastructure
+E-318,2024-02-27,Cloverdale,21082,infrastructure
+E-319,2022-07-09,Capitol Heights,19448,infrastructure
+E-320,2023-11-20,East Montgomery,40614,infrastructure
+E-321,2021-11-07,Cloverdale,15192,infrastructure
+E-322,2022-01-28,Capitol Heights,44896,infrastructure
+E-323,2021-07-17,Capitol Heights,47234,infrastructure
+E-324,2022-04-06,East Montgomery,39303,infrastructure
+E-325,2023-06-12,Capitol Heights,8575,infrastructure
+E-326,2021-05-30,West Side,37141,infrastructure
+E-327,2022-03-08,East Montgomery,49144,infrastructure
+E-328,2023-01-03,West Side,5518,infrastructure
+E-329,2024-03-31,West Side,41667,infrastructure
+E-330,2024-09-15,East Montgomery,9554,infrastructure
+E-331,2022-08-25,Capitol Heights,3149,infrastructure
+E-332,2024-04-30,East Montgomery,34775,infrastructure
+E-333,2024-08-10,Downtown,26170,infrastructure
+E-334,2021-02-26,East Montgomery,12407,infrastructure
+E-335,2023-02-28,East Montgomery,8471,infrastructure
+E-336,2024-08-16,East Montgomery,46216,infrastructure
+E-337,2021-09-19,Downtown,28318,infrastructure
+E-338,2022-05-05,West Side,15268,infrastructure
+E-339,2024-01-20,West Side,34548,infrastructure
+E-340,2021-04-11,Cloverdale,40138,infrastructure
+E-341,2022-03-18,Downtown,14144,infrastructure
+E-342,2021-07-18,West Side,18510,infrastructure
+E-343,2023-05-11,Capitol Heights,15816,infrastructure
+E-344,2022-11-06,Cloverdale,9846,infrastructure
+E-345,2022-08-04,Downtown,24156,infrastructure
+E-346,2022-12-28,East Montgomery,49380,infrastructure
+E-347,2023-03-17,West Side,44986,infrastructure
+E-348,2022-09-03,Cloverdale,39964,infrastructure
+E-349,2024-05-18,Capitol Heights,33701,infrastructure
+E-350,2024-04-20,Capitol Heights,27017,infrastructure
+E-351,2024-07-28,East Montgomery,17464,infrastructure
+E-352,2022-09-06,East Montgomery,3311,infrastructure
+E-353,2024-11-25,Capitol Heights,47388,infrastructure
+E-354,2022-11-30,Capitol Heights,24669,infrastructure
+E-355,2022-03-11,East Montgomery,20832,infrastructure
+E-356,2023-01-25,Cloverdale,8945,infrastructure
+E-357,2023-04-01,Cloverdale,2266,infrastructure
+E-358,2024-10-11,East Montgomery,28868,infrastructure
+E-359,2024-11-08,Cloverdale,11985,infrastructure
+E-360,2021-01-20,West Side,2009,infrastructure
+E-361,2023-11-24,Downtown,34555,infrastructure
+E-362,2023-10-06,Capitol Heights,23351,infrastructure
+E-363,2021-03-03,East Montgomery,31990,infrastructure
+E-364,2021-04-07,West Side,17364,infrastructure
+E-365,2021-01-14,Capitol Heights,21263,infrastructure
+E-366,2022-12-03,East Montgomery,41466,infrastructure
+E-367,2022-05-07,Capitol Heights,40319,infrastructure
+E-368,2023-10-22,West Side,37968,infrastructure
+E-369,2021-01-19,Cloverdale,38280,infrastructure
+E-370,2023-09-02,Cloverdale,3736,infrastructure
+E-371,2021-11-21,Cloverdale,36125,infrastructure
+E-372,2023-11-17,Capitol Heights,18849,infrastructure
+E-373,2021-01-02,West Side,42152,infrastructure
+E-374,2022-12-07,Capitol Heights,46559,infrastructure
+E-375,2022-05-21,East Montgomery,11460,infrastructure
+E-376,2024-08-24,Cloverdale,31945,infrastructure
+E-377,2022-03-01,Capitol Heights,16047,infrastructure
+E-378,2023-01-06,Downtown,21642,infrastructure
+E-379,2024-06-14,West Side,16622,infrastructure
+E-380,2024-12-25,East Montgomery,9617,infrastructure
+E-381,2022-10-06,East Montgomery,46116,infrastructure
+E-382,2024-04-15,West Side,18978,infrastructure
+E-383,2022-04-19,Downtown,25829,infrastructure
+E-384,2024-03-23,Cloverdale,33226,infrastructure
+E-385,2021-03-06,West Side,19728,infrastructure
+E-386,2024-10-10,Capitol Heights,17065,infrastructure
+E-387,2021-03-18,Cloverdale,11586,infrastructure
+E-388,2022-11-09,West Side,33314,infrastructure
+E-389,2022-01-24,West Side,15254,infrastructure
+E-390,2024-04-24,West Side,4143,infrastructure
+E-391,2022-03-19,West Side,48714,infrastructure
+E-392,2021-01-28,Capitol Heights,14960,infrastructure
+E-393,2023-11-16,Downtown,30409,infrastructure
+E-394,2022-03-05,Capitol Heights,15520,infrastructure
+E-395,2024-01-30,Cloverdale,27127,infrastructure
+E-396,2023-12-24,East Montgomery,25549,infrastructure
+E-397,2022-12-31,Cloverdale,34122,infrastructure
+E-398,2022-05-24,Capitol Heights,35491,infrastructure
+E-399,2023-11-15,East Montgomery,18456,infrastructure
+E-400,2023-04-17,Cloverdale,29487,infrastructure
+E-401,2022-12-18,Capitol Heights,41115,infrastructure
+E-402,2021-09-18,Cloverdale,33495,infrastructure
+E-403,2022-06-23,East Montgomery,18743,infrastructure
+E-404,2022-06-01,West Side,8645,infrastructure
+E-405,2023-08-11,East Montgomery,47500,infrastructure
+E-406,2024-11-04,Downtown,4376,infrastructure
+E-407,2022-01-13,Downtown,48184,infrastructure
+E-408,2024-12-05,West Side,29109,infrastructure
+E-409,2024-11-15,West Side,16799,infrastructure
+E-410,2023-11-04,West Side,9991,infrastructure
+E-411,2024-12-03,Downtown,29149,infrastructure
+E-412,2023-11-14,West Side,33640,infrastructure
+E-413,2022-01-20,Cloverdale,38477,infrastructure
+E-414,2023-05-19,West Side,44196,infrastructure
+E-415,2023-10-15,Cloverdale,4901,infrastructure
+E-416,2023-06-29,Downtown,15590,infrastructure
+E-417,2021-12-01,West Side,34439,infrastructure
+E-418,2022-11-07,West Side,42586,infrastructure
+E-419,2024-09-27,Capitol Heights,17491,infrastructure
+E-420,2021-06-14,Cloverdale,31382,infrastructure
+E-421,2022-06-03,Capitol Heights,18661,infrastructure
+E-422,2022-07-30,Cloverdale,47192,infrastructure
+E-423,2023-09-29,Cloverdale,43002,infrastructure
+E-424,2022-07-03,West Side,29766,infrastructure
+E-425,2021-04-04,East Montgomery,28817,infrastructure
+E-426,2024-04-10,Cloverdale,2585,infrastructure
+E-427,2023-02-13,Downtown,22930,infrastructure
+E-428,2021-10-20,East Montgomery,39713,infrastructure
+E-429,2022-06-10,Cloverdale,19601,infrastructure
+E-430,2021-01-07,Downtown,2242,infrastructure
+E-431,2023-10-05,Capitol Heights,12636,infrastructure
+E-432,2022-08-12,East Montgomery,23214,infrastructure
+E-433,2024-11-28,Cloverdale,19154,infrastructure
+E-434,2023-09-02,Capitol Heights,22272,infrastructure
+E-435,2023-02-16,East Montgomery,20785,infrastructure
+E-436,2022-05-22,East Montgomery,32993,infrastructure
+E-437,2024-09-27,West Side,32798,infrastructure
+E-438,2024-09-06,Capitol Heights,39980,infrastructure
+E-439,2024-01-28,East Montgomery,44757,infrastructure
+E-440,2022-06-11,West Side,41470,infrastructure
+E-441,2021-09-29,Downtown,32188,infrastructure
+E-442,2021-04-29,East Montgomery,17241,infrastructure
+E-443,2021-10-04,West Side,36684,infrastructure
+E-444,2024-10-01,Downtown,10340,infrastructure
+E-445,2022-12-11,Cloverdale,24736,infrastructure
+E-446,2022-01-06,East Montgomery,1256,infrastructure
+E-447,2022-12-06,Cloverdale,48559,infrastructure
+E-448,2024-01-28,Capitol Heights,5641,infrastructure
+E-449,2024-03-17,Downtown,10652,infrastructure
+E-450,2022-12-13,Cloverdale,46540,infrastructure
+E-451,2024-07-15,Capitol Heights,42545,infrastructure
+E-452,2022-12-17,Downtown,47958,infrastructure
+E-453,2022-01-09,Capitol Heights,31993,infrastructure
+E-454,2022-05-09,Capitol Heights,44949,infrastructure
+E-455,2021-04-25,East Montgomery,36907,infrastructure
+E-456,2021-06-06,Cloverdale,45480,infrastructure
+E-457,2022-10-09,Cloverdale,18288,infrastructure
+E-458,2022-12-11,West Side,23011,infrastructure
+E-459,2021-09-01,West Side,34594,infrastructure
+E-460,2023-01-05,Downtown,44022,infrastructure
+E-461,2022-03-22,West Side,39228,infrastructure
+E-462,2021-09-23,Capitol Heights,46339,infrastructure
+E-463,2023-09-02,West Side,26135,infrastructure
+E-464,2022-02-03,Cloverdale,26077,infrastructure
+E-465,2024-10-25,Cloverdale,21530,infrastructure
+E-466,2024-01-13,Downtown,48545,infrastructure
+E-467,2023-11-16,Downtown,44415,infrastructure
+E-468,2022-04-08,Downtown,23790,infrastructure
+E-469,2024-09-13,Cloverdale,32330,infrastructure
+E-470,2023-01-06,Downtown,48454,infrastructure
+E-471,2022-02-05,Downtown,5099,infrastructure
+E-472,2022-08-05,Capitol Heights,32187,infrastructure
+E-473,2021-06-21,West Side,33379,infrastructure
+E-474,2024-04-24,Capitol Heights,45632,infrastructure
+E-475,2024-06-23,Downtown,24114,infrastructure
+E-476,2023-04-26,Downtown,2693,infrastructure
+E-477,2021-01-28,Capitol Heights,10280,infrastructure
+E-478,2023-09-03,West Side,31805,infrastructure
+E-479,2023-12-13,East Montgomery,20494,infrastructure
+E-480,2023-08-09,East Montgomery,27621,infrastructure
+E-481,2021-06-30,East Montgomery,31714,infrastructure
+E-482,2021-07-01,Capitol Heights,22011,infrastructure
+E-483,2024-12-02,West Side,25933,infrastructure
+E-484,2021-08-11,Downtown,35127,infrastructure
+E-485,2021-12-24,Cloverdale,30432,infrastructure
+E-486,2022-08-22,East Montgomery,15426,infrastructure
+E-487,2022-07-21,Downtown,2706,infrastructure
+E-488,2022-04-02,Downtown,18512,infrastructure
+E-489,2023-09-17,Capitol Heights,3441,infrastructure
+E-490,2022-05-01,Downtown,13383,infrastructure
+E-491,2023-04-28,West Side,30472,infrastructure
+E-492,2021-11-11,West Side,7454,infrastructure
+E-493,2024-07-22,Capitol Heights,20133,infrastructure
+E-494,2023-09-28,Cloverdale,24542,infrastructure
+E-495,2023-12-22,West Side,10355,infrastructure
+E-496,2024-07-01,West Side,39347,infrastructure
+E-497,2022-01-10,Capitol Heights,45374,infrastructure
+E-498,2024-05-20,East Montgomery,30955,infrastructure
+E-499,2024-03-02,Cloverdale,21838,infrastructure

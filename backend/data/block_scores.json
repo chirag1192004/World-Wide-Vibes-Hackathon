@@ -1,0 +1,7480 @@
+[
+  {
+    "block_id": "32.333_-86.308",
+    "lat": 32.33317,
+    "lng": -86.30808,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 0",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.362_-86.263",
+    "lat": 32.3625,
+    "lng": -86.26271,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 1",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.343_-86.313",
+    "lat": 32.34297,
+    "lng": -86.31264,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 2",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.275",
+    "lat": 32.33705,
+    "lng": -86.27451,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 3",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.376_-86.288",
+    "lat": 32.37598,
+    "lng": -86.28844,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 5",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.342_-86.317",
+    "lat": 32.34188,
+    "lng": -86.31739,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 8",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.348_-86.315",
+    "lat": 32.34766,
+    "lng": -86.31481,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 10",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.362_-86.309",
+    "lat": 32.36199,
+    "lng": -86.30939,
+    "survival_score": 50,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 13",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      },
+      {
+        "year": 2024,
+        "business_name": "Business 478",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.327_-86.32",
+    "lat": 32.32683,
+    "lng": -86.31951,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 14",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.347_-86.306",
+    "lat": 32.34706,
+    "lng": -86.30617,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 15",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.399_-86.298",
+    "lat": 32.39882,
+    "lng": -86.2977,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 17",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.358_-86.3",
+    "lat": 32.35787,
+    "lng": -86.30001,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 19",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.324_-86.305",
+    "lat": 32.32449,
+    "lng": -86.30454,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 20",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.36_-86.274",
+    "lat": 32.36042,
+    "lng": -86.27397,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 21",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.368_-86.294",
+    "lat": 32.36807,
+    "lng": -86.29396,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 22",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.333_-86.303",
+    "lat": 32.33313,
+    "lng": -86.30296,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 25",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.336_-86.273",
+    "lat": 32.33588,
+    "lng": -86.27269,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 27",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.357_-86.262",
+    "lat": 32.35743,
+    "lng": -86.26242,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 29",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.376_-86.277",
+    "lat": 32.37587,
+    "lng": -86.27687,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 34",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.37_-86.316",
+    "lat": 32.37046,
+    "lng": -86.31597,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 36",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.323_-86.281",
+    "lat": 32.32269,
+    "lng": -86.28087,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 39",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.321_-86.311",
+    "lat": 32.32123,
+    "lng": -86.31055,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 40",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.347_-86.297",
+    "lat": 32.34704,
+    "lng": -86.29672,
+    "survival_score": 50,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 42",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      },
+      {
+        "year": 2021,
+        "business_name": "Business 345",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.351_-86.281",
+    "lat": 32.35068,
+    "lng": -86.28125,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 43",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.386_-86.292",
+    "lat": 32.38635,
+    "lng": -86.29151,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 44",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.366_-86.313",
+    "lat": 32.36585,
+    "lng": -86.31261,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 46",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.327_-86.282",
+    "lat": 32.32699,
+    "lng": -86.28158,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 49",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.369_-86.285",
+    "lat": 32.36886,
+    "lng": -86.28516,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 50",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.326_-86.259",
+    "lat": 32.32584,
+    "lng": -86.25897,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 51",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.261",
+    "lat": 32.33157,
+    "lng": -86.26096,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 53",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.391_-86.29",
+    "lat": 32.39126,
+    "lng": -86.2896,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 54",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.4_-86.282",
+    "lat": 32.39955,
+    "lng": -86.28215,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 55",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.362_-86.277",
+    "lat": 32.36153,
+    "lng": -86.27658,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 56",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.358_-86.295",
+    "lat": 32.35753,
+    "lng": -86.29457,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 60",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.384_-86.292",
+    "lat": 32.38411,
+    "lng": -86.29228,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 63",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.33_-86.275",
+    "lat": 32.3303,
+    "lng": -86.27469,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 65",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.397_-86.251",
+    "lat": 32.39698,
+    "lng": -86.25065,
+    "survival_score": 50,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 68",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      },
+      {
+        "year": 2021,
+        "business_name": "Business 679",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.366_-86.277",
+    "lat": 32.36572,
+    "lng": -86.27742,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 71",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.381_-86.288",
+    "lat": 32.38089,
+    "lng": -86.28779,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 75",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.36_-86.258",
+    "lat": 32.36045,
+    "lng": -86.25842,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 76",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.328_-86.313",
+    "lat": 32.3281,
+    "lng": -86.31327,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 80",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.325_-86.28",
+    "lat": 32.32464,
+    "lng": -86.28025,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 84",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.32_-86.284",
+    "lat": 32.32,
+    "lng": -86.28419,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 85",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.328_-86.316",
+    "lat": 32.32803,
+    "lng": -86.31634,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 88",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.359_-86.313",
+    "lat": 32.35945,
+    "lng": -86.31347,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 90",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.37_-86.265",
+    "lat": 32.37015,
+    "lng": -86.26482,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 91",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.339_-86.257",
+    "lat": 32.3389,
+    "lng": -86.25736,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 93",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.341_-86.314",
+    "lat": 32.34104,
+    "lng": -86.3144,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 95",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.348_-86.314",
+    "lat": 32.34839,
+    "lng": -86.31386,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 97",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.388_-86.293",
+    "lat": 32.3883,
+    "lng": -86.29307,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 101",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.362_-86.283",
+    "lat": 32.36173,
+    "lng": -86.28299,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 104",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.379_-86.268",
+    "lat": 32.37902,
+    "lng": -86.2676,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 105",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.363_-86.29",
+    "lat": 32.36293,
+    "lng": -86.29039,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 111",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.361_-86.311",
+    "lat": 32.361,
+    "lng": -86.31142,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 114",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.371_-86.292",
+    "lat": 32.37114,
+    "lng": -86.29172,
+    "survival_score": 0,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 116",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      },
+      {
+        "year": 2020,
+        "business_name": "Business 267",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.367_-86.299",
+    "lat": 32.36669,
+    "lng": -86.2985,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 119",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.35_-86.26",
+    "lat": 32.35013,
+    "lng": -86.26028,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 124",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.351_-86.262",
+    "lat": 32.35078,
+    "lng": -86.26179,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 125",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.336_-86.307",
+    "lat": 32.33601,
+    "lng": -86.30715,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 126",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.358_-86.271",
+    "lat": 32.35768,
+    "lng": -86.27086,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 128",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.368_-86.254",
+    "lat": 32.36759,
+    "lng": -86.2538,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 133",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.306",
+    "lat": 32.33698,
+    "lng": -86.30602,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 134",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.398_-86.267",
+    "lat": 32.39847,
+    "lng": -86.26684,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 135",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.34_-86.279",
+    "lat": 32.34026,
+    "lng": -86.27917,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 136",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.328_-86.311",
+    "lat": 32.32835,
+    "lng": -86.31072,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 137",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.38_-86.296",
+    "lat": 32.38025,
+    "lng": -86.29604,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 141",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.336_-86.258",
+    "lat": 32.33609,
+    "lng": -86.25796,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 143",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.391_-86.303",
+    "lat": 32.39065,
+    "lng": -86.3034,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 144",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.358_-86.307",
+    "lat": 32.35848,
+    "lng": -86.30661,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 145",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.345_-86.297",
+    "lat": 32.34488,
+    "lng": -86.2973,
+    "survival_score": 0,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 153",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      },
+      {
+        "year": 2015,
+        "business_name": "Business 790",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.37_-86.311",
+    "lat": 32.37031,
+    "lng": -86.31098,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 155",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.359_-86.26",
+    "lat": 32.35905,
+    "lng": -86.26021,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 156",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.347_-86.287",
+    "lat": 32.34668,
+    "lng": -86.28743,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 160",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.379_-86.261",
+    "lat": 32.37866,
+    "lng": -86.26134,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 161",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.331_-86.305",
+    "lat": 32.33073,
+    "lng": -86.30478,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 163",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.389_-86.276",
+    "lat": 32.38901,
+    "lng": -86.27648,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 164",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.384_-86.285",
+    "lat": 32.38363,
+    "lng": -86.28506,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 167",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.37_-86.283",
+    "lat": 32.37027,
+    "lng": -86.28264,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 170",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.324_-86.287",
+    "lat": 32.32385,
+    "lng": -86.28717,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 172",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.334_-86.275",
+    "lat": 32.33397,
+    "lng": -86.27494,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 175",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.389_-86.272",
+    "lat": 32.38899,
+    "lng": -86.27213,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 176",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.294",
+    "lat": 32.3319,
+    "lng": -86.29384,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 177",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.348_-86.271",
+    "lat": 32.34847,
+    "lng": -86.27064,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 178",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.322_-86.29",
+    "lat": 32.3216,
+    "lng": -86.2895,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 179",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.333_-86.298",
+    "lat": 32.3325,
+    "lng": -86.2976,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 180",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.395_-86.27",
+    "lat": 32.39493,
+    "lng": -86.27001,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 182",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.38_-86.254",
+    "lat": 32.37994,
+    "lng": -86.25419,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 184",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.377_-86.264",
+    "lat": 32.37686,
+    "lng": -86.26439,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 186",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.393_-86.319",
+    "lat": 32.3932,
+    "lng": -86.3187,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 189",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.378_-86.303",
+    "lat": 32.37796,
+    "lng": -86.30303,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 191",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.371_-86.313",
+    "lat": 32.3711,
+    "lng": -86.31266,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 192",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.354_-86.319",
+    "lat": 32.35418,
+    "lng": -86.31947,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 193",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.377_-86.298",
+    "lat": 32.37665,
+    "lng": -86.29799,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 195",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.339_-86.318",
+    "lat": 32.33934,
+    "lng": -86.31848,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 196",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.364_-86.31",
+    "lat": 32.36362,
+    "lng": -86.31026,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 198",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.321_-86.306",
+    "lat": 32.32056,
+    "lng": -86.30639,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 200",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.323_-86.268",
+    "lat": 32.32265,
+    "lng": -86.26795,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 202",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.324_-86.275",
+    "lat": 32.32393,
+    "lng": -86.27471,
+    "survival_score": 50,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 208",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      },
+      {
+        "year": 2019,
+        "business_name": "Business 629",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.366_-86.281",
+    "lat": 32.36624,
+    "lng": -86.28116,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 210",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.369_-86.262",
+    "lat": 32.36899,
+    "lng": -86.26231,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 219",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.342_-86.283",
+    "lat": 32.34248,
+    "lng": -86.2834,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 225",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.32_-86.279",
+    "lat": 32.32003,
+    "lng": -86.27875,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 226",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.394_-86.267",
+    "lat": 32.3943,
+    "lng": -86.26713,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 229",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.327_-86.297",
+    "lat": 32.3268,
+    "lng": -86.29741,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 230",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.35_-86.304",
+    "lat": 32.35015,
+    "lng": -86.3038,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 231",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.342_-86.311",
+    "lat": 32.34187,
+    "lng": -86.31052,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 232",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.342_-86.284",
+    "lat": 32.34178,
+    "lng": -86.284,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 235",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.33_-86.307",
+    "lat": 32.32974,
+    "lng": -86.30695,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 236",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.386_-86.293",
+    "lat": 32.38603,
+    "lng": -86.2932,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 237",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.352_-86.309",
+    "lat": 32.35238,
+    "lng": -86.30855,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 240",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.379_-86.292",
+    "lat": 32.37908,
+    "lng": -86.29163,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 242",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.369_-86.259",
+    "lat": 32.36926,
+    "lng": -86.25875,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 243",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.373_-86.305",
+    "lat": 32.3731,
+    "lng": -86.30515,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 245",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.35_-86.278",
+    "lat": 32.34981,
+    "lng": -86.2783,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 246",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.361_-86.256",
+    "lat": 32.361,
+    "lng": -86.25604,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 249",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.386_-86.276",
+    "lat": 32.38584,
+    "lng": -86.27637,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 255",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.343_-86.288",
+    "lat": 32.34268,
+    "lng": -86.28785,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 256",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.386_-86.29",
+    "lat": 32.38592,
+    "lng": -86.28985,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 259",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.343_-86.311",
+    "lat": 32.34255,
+    "lng": -86.31134,
+    "survival_score": 0,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 263",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      },
+      {
+        "year": 2014,
+        "business_name": "Business 834",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.328_-86.262",
+    "lat": 32.3279,
+    "lng": -86.26215,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 268",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.38_-86.27",
+    "lat": 32.38021,
+    "lng": -86.27032,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 269",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.368_-86.27",
+    "lat": 32.36762,
+    "lng": -86.27046,
+    "survival_score": 0,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 272",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      },
+      {
+        "year": 2017,
+        "business_name": "Business 562",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.321_-86.316",
+    "lat": 32.32079,
+    "lng": -86.31634,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 273",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.384_-86.291",
+    "lat": 32.38356,
+    "lng": -86.29132,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 274",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.369_-86.287",
+    "lat": 32.36935,
+    "lng": -86.28714,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 275",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.353_-86.312",
+    "lat": 32.3534,
+    "lng": -86.31171,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 276",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.327_-86.277",
+    "lat": 32.32677,
+    "lng": -86.27739,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 280",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.341_-86.315",
+    "lat": 32.34104,
+    "lng": -86.31479,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 282",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.362_-86.313",
+    "lat": 32.36178,
+    "lng": -86.31317,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 283",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.399_-86.311",
+    "lat": 32.39918,
+    "lng": -86.31116,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 284",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.312",
+    "lat": 32.33217,
+    "lng": -86.31158,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 285",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.346_-86.305",
+    "lat": 32.34605,
+    "lng": -86.30469,
+    "survival_score": 100,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 2,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 286",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      },
+      {
+        "year": 2019,
+        "business_name": "Business 856",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.388_-86.266",
+    "lat": 32.38792,
+    "lng": -86.2656,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 289",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.379_-86.283",
+    "lat": 32.3788,
+    "lng": -86.28271,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 290",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.289",
+    "lat": 32.33683,
+    "lng": -86.28907,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 291",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.367_-86.287",
+    "lat": 32.36704,
+    "lng": -86.28749,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 292",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.39_-86.297",
+    "lat": 32.38986,
+    "lng": -86.2974,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 293",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.375_-86.283",
+    "lat": 32.37483,
+    "lng": -86.2827,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 294",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.341_-86.284",
+    "lat": 32.34124,
+    "lng": -86.28418,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 296",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.377_-86.27",
+    "lat": 32.37718,
+    "lng": -86.27025,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 298",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.367_-86.266",
+    "lat": 32.36664,
+    "lng": -86.26634,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 302",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.386_-86.313",
+    "lat": 32.38604,
+    "lng": -86.31323,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 303",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.388_-86.276",
+    "lat": 32.38788,
+    "lng": -86.2765,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 304",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.342_-86.253",
+    "lat": 32.34199,
+    "lng": -86.25256,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 308",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.324_-86.258",
+    "lat": 32.32366,
+    "lng": -86.25771,
+    "survival_score": 100,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 2,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 309",
+        "permit_type": "new_commercial",
+        "status": "active"
+      },
+      {
+        "year": 2016,
+        "business_name": "Business 325",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.346_-86.252",
+    "lat": 32.34648,
+    "lng": -86.25229,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 313",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.34_-86.307",
+    "lat": 32.34032,
+    "lng": -86.30714,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 318",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.35_-86.258",
+    "lat": 32.34996,
+    "lng": -86.25829,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 319",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.333_-86.279",
+    "lat": 32.33304,
+    "lng": -86.27915,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 320",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.373_-86.266",
+    "lat": 32.37289,
+    "lng": -86.2664,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 321",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.37_-86.285",
+    "lat": 32.37036,
+    "lng": -86.28528,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 323",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.328_-86.3",
+    "lat": 32.32844,
+    "lng": -86.29983,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 332",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.351_-86.311",
+    "lat": 32.3506,
+    "lng": -86.3113,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 335",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.279",
+    "lat": 32.33195,
+    "lng": -86.27852,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 340",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.387_-86.309",
+    "lat": 32.38725,
+    "lng": -86.30861,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 341",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.338_-86.288",
+    "lat": 32.3379,
+    "lng": -86.28827,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 343",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.322_-86.263",
+    "lat": 32.32171,
+    "lng": -86.26252,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 344",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.351_-86.298",
+    "lat": 32.35086,
+    "lng": -86.29764,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 346",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.331_-86.32",
+    "lat": 32.33123,
+    "lng": -86.31958,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 349",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.387_-86.302",
+    "lat": 32.38711,
+    "lng": -86.30202,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 351",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.254",
+    "lat": 32.33731,
+    "lng": -86.25368,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 353",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.392_-86.315",
+    "lat": 32.39188,
+    "lng": -86.31457,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 354",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.372_-86.269",
+    "lat": 32.37173,
+    "lng": -86.26923,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 357",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.395_-86.318",
+    "lat": 32.39497,
+    "lng": -86.31769,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 358",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.342_-86.275",
+    "lat": 32.34203,
+    "lng": -86.27525,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 359",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.375_-86.291",
+    "lat": 32.37532,
+    "lng": -86.29141,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 360",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.369_-86.28",
+    "lat": 32.36871,
+    "lng": -86.27979,
+    "survival_score": 50,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 367",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      },
+      {
+        "year": 2014,
+        "business_name": "Business 670",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.336_-86.308",
+    "lat": 32.3362,
+    "lng": -86.30844,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 370",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.34_-86.265",
+    "lat": 32.34007,
+    "lng": -86.26544,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 372",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.37_-86.281",
+    "lat": 32.36971,
+    "lng": -86.28127,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 373",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.326_-86.306",
+    "lat": 32.32637,
+    "lng": -86.30581,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 376",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.354_-86.283",
+    "lat": 32.35364,
+    "lng": -86.28333,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 377",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.325_-86.262",
+    "lat": 32.32481,
+    "lng": -86.262,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 379",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.324_-86.253",
+    "lat": 32.32423,
+    "lng": -86.25333,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 381",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.367_-86.316",
+    "lat": 32.36696,
+    "lng": -86.31583,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 388",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.376_-86.261",
+    "lat": 32.37645,
+    "lng": -86.26147,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 389",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.4_-86.261",
+    "lat": 32.39975,
+    "lng": -86.26086,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 390",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.362_-86.27",
+    "lat": 32.36175,
+    "lng": -86.27016,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 392",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.373_-86.314",
+    "lat": 32.3728,
+    "lng": -86.31385,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 395",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.325_-86.253",
+    "lat": 32.32501,
+    "lng": -86.2528,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 396",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.379_-86.3",
+    "lat": 32.3786,
+    "lng": -86.30009,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 397",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.367_-86.265",
+    "lat": 32.36652,
+    "lng": -86.2647,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 398",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.39_-86.278",
+    "lat": 32.3904,
+    "lng": -86.27781,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 402",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.324_-86.298",
+    "lat": 32.32372,
+    "lng": -86.29834,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 405",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.288",
+    "lat": 32.33181,
+    "lng": -86.2884,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 411",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.362_-86.28",
+    "lat": 32.36154,
+    "lng": -86.28021,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 413",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.323_-86.295",
+    "lat": 32.32333,
+    "lng": -86.29501,
+    "survival_score": 0,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 414",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      },
+      {
+        "year": 2019,
+        "business_name": "Business 930",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.37_-86.29",
+    "lat": 32.36951,
+    "lng": -86.29008,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 416",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.372_-86.261",
+    "lat": 32.37194,
+    "lng": -86.26072,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 423",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.364_-86.281",
+    "lat": 32.36403,
+    "lng": -86.28083,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 426",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.388_-86.299",
+    "lat": 32.3883,
+    "lng": -86.29895,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 428",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.389_-86.269",
+    "lat": 32.3889,
+    "lng": -86.26943,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 430",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.398_-86.31",
+    "lat": 32.39757,
+    "lng": -86.30972,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 432",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.347_-86.255",
+    "lat": 32.34726,
+    "lng": -86.25503,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 433",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.32_-86.256",
+    "lat": 32.32017,
+    "lng": -86.25564,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 436",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.338_-86.282",
+    "lat": 32.33807,
+    "lng": -86.28216,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 437",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.261",
+    "lat": 32.33656,
+    "lng": -86.26137,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 439",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.374_-86.304",
+    "lat": 32.3736,
+    "lng": -86.30413,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 443",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.345_-86.304",
+    "lat": 32.34539,
+    "lng": -86.30424,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 445",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.367_-86.304",
+    "lat": 32.3669,
+    "lng": -86.30415,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 448",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.367_-86.263",
+    "lat": 32.36716,
+    "lng": -86.26305,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 450",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.323_-86.299",
+    "lat": 32.32253,
+    "lng": -86.29915,
+    "survival_score": 0,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 451",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      },
+      {
+        "year": 2017,
+        "business_name": "Business 900",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.35_-86.307",
+    "lat": 32.34953,
+    "lng": -86.3066,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 452",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.359_-86.253",
+    "lat": 32.35913,
+    "lng": -86.25315,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 453",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.377_-86.259",
+    "lat": 32.37736,
+    "lng": -86.25865,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 454",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.363_-86.281",
+    "lat": 32.36329,
+    "lng": -86.28093,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 455",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.365_-86.281",
+    "lat": 32.36519,
+    "lng": -86.28071,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 457",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.341_-86.306",
+    "lat": 32.34124,
+    "lng": -86.30638,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 458",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.378_-86.282",
+    "lat": 32.37782,
+    "lng": -86.28206,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 460",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.331_-86.284",
+    "lat": 32.33067,
+    "lng": -86.28374,
+    "survival_score": 50,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 462",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      },
+      {
+        "year": 2022,
+        "business_name": "Business 736",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.342_-86.256",
+    "lat": 32.34227,
+    "lng": -86.25625,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 463",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.347_-86.271",
+    "lat": 32.34713,
+    "lng": -86.27074,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 465",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.392_-86.287",
+    "lat": 32.39213,
+    "lng": -86.2869,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 466",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.358_-86.256",
+    "lat": 32.35785,
+    "lng": -86.25605,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 467",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.375_-86.252",
+    "lat": 32.37493,
+    "lng": -86.25218,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 473",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.363_-86.301",
+    "lat": 32.36276,
+    "lng": -86.30078,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 474",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.331_-86.272",
+    "lat": 32.33142,
+    "lng": -86.27236,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 475",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.325_-86.279",
+    "lat": 32.32491,
+    "lng": -86.27879,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 476",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.345_-86.292",
+    "lat": 32.34534,
+    "lng": -86.29243,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 477",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.365_-86.291",
+    "lat": 32.36468,
+    "lng": -86.29135,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 479",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.365_-86.306",
+    "lat": 32.36537,
+    "lng": -86.30626,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 481",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.359_-86.272",
+    "lat": 32.35947,
+    "lng": -86.27219,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 485",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.373_-86.269",
+    "lat": 32.37271,
+    "lng": -86.26901,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 486",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.327_-86.271",
+    "lat": 32.32655,
+    "lng": -86.27105,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 487",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.358_-86.288",
+    "lat": 32.35752,
+    "lng": -86.28763,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 489",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.364_-86.297",
+    "lat": 32.36388,
+    "lng": -86.29744,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 490",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.378_-86.29",
+    "lat": 32.378,
+    "lng": -86.28959,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 491",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.374_-86.312",
+    "lat": 32.37374,
+    "lng": -86.3123,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 493",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.375_-86.276",
+    "lat": 32.37481,
+    "lng": -86.27607,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 494",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.397_-86.311",
+    "lat": 32.39686,
+    "lng": -86.31077,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 502",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.32_-86.283",
+    "lat": 32.32036,
+    "lng": -86.28255,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 504",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.383_-86.277",
+    "lat": 32.38278,
+    "lng": -86.27651,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 506",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.372_-86.259",
+    "lat": 32.3719,
+    "lng": -86.25948,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 509",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.38_-86.292",
+    "lat": 32.37963,
+    "lng": -86.29225,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 512",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.338_-86.257",
+    "lat": 32.33778,
+    "lng": -86.25717,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 513",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.391_-86.272",
+    "lat": 32.39105,
+    "lng": -86.27229,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 517",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.379_-86.276",
+    "lat": 32.37861,
+    "lng": -86.27551,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 523",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.262",
+    "lat": 32.33166,
+    "lng": -86.26249,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 524",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.361_-86.268",
+    "lat": 32.3613,
+    "lng": -86.26823,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 525",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.35_-86.298",
+    "lat": 32.35002,
+    "lng": -86.29812,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 527",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.394_-86.288",
+    "lat": 32.39422,
+    "lng": -86.28845,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 528",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.32",
+    "lat": 32.33662,
+    "lng": -86.31994,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 529",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.371_-86.283",
+    "lat": 32.37066,
+    "lng": -86.28263,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 532",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.373_-86.284",
+    "lat": 32.37283,
+    "lng": -86.28392,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 533",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.373_-86.291",
+    "lat": 32.37332,
+    "lng": -86.29052,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 539",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.366_-86.263",
+    "lat": 32.36648,
+    "lng": -86.26257,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 540",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.355_-86.253",
+    "lat": 32.35543,
+    "lng": -86.2533,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 543",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.343_-86.258",
+    "lat": 32.34256,
+    "lng": -86.2582,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 544",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.343_-86.257",
+    "lat": 32.34289,
+    "lng": -86.25719,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 547",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.378_-86.252",
+    "lat": 32.37755,
+    "lng": -86.25214,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 549",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.352_-86.258",
+    "lat": 32.35183,
+    "lng": -86.25798,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 550",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.376_-86.319",
+    "lat": 32.37612,
+    "lng": -86.31932,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 555",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.372_-86.288",
+    "lat": 32.3721,
+    "lng": -86.28797,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 557",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.349_-86.306",
+    "lat": 32.34927,
+    "lng": -86.30626,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 558",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.263",
+    "lat": 32.33195,
+    "lng": -86.2633,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 559",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.39_-86.273",
+    "lat": 32.38966,
+    "lng": -86.27313,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 560",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.326_-86.286",
+    "lat": 32.32568,
+    "lng": -86.28595,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 561",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.39_-86.313",
+    "lat": 32.39043,
+    "lng": -86.31338,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 564",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.328_-86.287",
+    "lat": 32.32802,
+    "lng": -86.28697,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 566",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.377_-86.268",
+    "lat": 32.37684,
+    "lng": -86.26776,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 568",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.385_-86.281",
+    "lat": 32.38544,
+    "lng": -86.28055,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 569",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.359_-86.267",
+    "lat": 32.35937,
+    "lng": -86.2667,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 570",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.375_-86.257",
+    "lat": 32.37513,
+    "lng": -86.25676,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 571",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.347_-86.294",
+    "lat": 32.34715,
+    "lng": -86.2936,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 573",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.384_-86.28",
+    "lat": 32.3841,
+    "lng": -86.2798,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 574",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.317",
+    "lat": 32.33246,
+    "lng": -86.31728,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 576",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.383_-86.271",
+    "lat": 32.38339,
+    "lng": -86.27127,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 578",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.37_-86.257",
+    "lat": 32.37048,
+    "lng": -86.25655,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 580",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.364_-86.271",
+    "lat": 32.36393,
+    "lng": -86.27145,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 581",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.383_-86.254",
+    "lat": 32.38304,
+    "lng": -86.25365,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 584",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.326_-86.255",
+    "lat": 32.3263,
+    "lng": -86.25514,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 585",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.344_-86.264",
+    "lat": 32.34439,
+    "lng": -86.2645,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 587",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.398_-86.269",
+    "lat": 32.39787,
+    "lng": -86.26904,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 590",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.392_-86.277",
+    "lat": 32.39185,
+    "lng": -86.27697,
+    "survival_score": 100,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 2,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 591",
+        "permit_type": "new_commercial",
+        "status": "active"
+      },
+      {
+        "year": 2022,
+        "business_name": "Business 632",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.333_-86.252",
+    "lat": 32.33329,
+    "lng": -86.25213,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 592",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.383_-86.294",
+    "lat": 32.38264,
+    "lng": -86.29442,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 594",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.391_-86.311",
+    "lat": 32.39051,
+    "lng": -86.3114,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 596",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.363_-86.284",
+    "lat": 32.36326,
+    "lng": -86.28413,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 597",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.387_-86.277",
+    "lat": 32.38731,
+    "lng": -86.27678,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 601",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.378_-86.278",
+    "lat": 32.37811,
+    "lng": -86.27763,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 602",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.366_-86.3",
+    "lat": 32.36605,
+    "lng": -86.29994,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 603",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.388_-86.261",
+    "lat": 32.38805,
+    "lng": -86.26056,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 604",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.38_-86.314",
+    "lat": 32.37965,
+    "lng": -86.31372,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 608",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.355_-86.306",
+    "lat": 32.35455,
+    "lng": -86.30552,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 609",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.286",
+    "lat": 32.3368,
+    "lng": -86.28567,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 610",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.385_-86.32",
+    "lat": 32.38451,
+    "lng": -86.31992,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 613",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.342_-86.25",
+    "lat": 32.34208,
+    "lng": -86.25006,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 614",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.334_-86.276",
+    "lat": 32.33388,
+    "lng": -86.27575,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 616",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.349_-86.259",
+    "lat": 32.34901,
+    "lng": -86.2591,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 618",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.379_-86.274",
+    "lat": 32.37915,
+    "lng": -86.27356,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 619",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.311",
+    "lat": 32.3373,
+    "lng": -86.3105,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 621",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.267",
+    "lat": 32.33668,
+    "lng": -86.26669,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 623",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.316",
+    "lat": 32.33717,
+    "lng": -86.31592,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 625",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.304",
+    "lat": 32.33235,
+    "lng": -86.30387,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 631",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.395_-86.29",
+    "lat": 32.3948,
+    "lng": -86.29028,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 633",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.348_-86.287",
+    "lat": 32.34823,
+    "lng": -86.28736,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 635",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.391_-86.296",
+    "lat": 32.39146,
+    "lng": -86.29588,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 638",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.391_-86.288",
+    "lat": 32.39074,
+    "lng": -86.28802,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 640",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.338_-86.3",
+    "lat": 32.33848,
+    "lng": -86.29995,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 641",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.333_-86.301",
+    "lat": 32.33277,
+    "lng": -86.30121,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 642",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.362_-86.275",
+    "lat": 32.36196,
+    "lng": -86.27457,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 643",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.385_-86.254",
+    "lat": 32.38527,
+    "lng": -86.25442,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 645",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.35_-86.27",
+    "lat": 32.35045,
+    "lng": -86.27035,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 647",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.396_-86.264",
+    "lat": 32.39621,
+    "lng": -86.26382,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 649",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.383_-86.257",
+    "lat": 32.38337,
+    "lng": -86.2573,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 654",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.396_-86.294",
+    "lat": 32.39634,
+    "lng": -86.29366,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 655",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.354_-86.314",
+    "lat": 32.35353,
+    "lng": -86.31395,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 658",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.371_-86.305",
+    "lat": 32.37073,
+    "lng": -86.30497,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 660",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.376_-86.25",
+    "lat": 32.3762,
+    "lng": -86.25024,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 662",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.323_-86.287",
+    "lat": 32.32297,
+    "lng": -86.28725,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 666",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.374_-86.32",
+    "lat": 32.37402,
+    "lng": -86.31967,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 672",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.331_-86.311",
+    "lat": 32.3311,
+    "lng": -86.3109,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 674",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.342_-86.278",
+    "lat": 32.34239,
+    "lng": -86.2785,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 677",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.372_-86.279",
+    "lat": 32.37219,
+    "lng": -86.27857,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 678",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.368_-86.3",
+    "lat": 32.36754,
+    "lng": -86.2999,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 681",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.395_-86.306",
+    "lat": 32.39535,
+    "lng": -86.30622,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 682",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.368_-86.253",
+    "lat": 32.36789,
+    "lng": -86.25331,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 684",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.352_-86.302",
+    "lat": 32.35174,
+    "lng": -86.30231,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 686",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.364_-86.275",
+    "lat": 32.36445,
+    "lng": -86.27531,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 687",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.38_-86.302",
+    "lat": 32.37985,
+    "lng": -86.30189,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 692",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.381_-86.271",
+    "lat": 32.38105,
+    "lng": -86.27093,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 694",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.268",
+    "lat": 32.33152,
+    "lng": -86.26786,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 696",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.352_-86.282",
+    "lat": 32.35185,
+    "lng": -86.28162,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 697",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.377_-86.251",
+    "lat": 32.37701,
+    "lng": -86.25097,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 698",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.251",
+    "lat": 32.33662,
+    "lng": -86.25118,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 699",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.324_-86.313",
+    "lat": 32.32391,
+    "lng": -86.31293,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 700",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.396_-86.271",
+    "lat": 32.39568,
+    "lng": -86.27059,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 701",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.394_-86.262",
+    "lat": 32.39447,
+    "lng": -86.26214,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 702",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.328_-86.253",
+    "lat": 32.3279,
+    "lng": -86.25287,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 706",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.356_-86.254",
+    "lat": 32.35617,
+    "lng": -86.25364,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 711",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.334_-86.278",
+    "lat": 32.33361,
+    "lng": -86.27838,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 714",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.379_-86.251",
+    "lat": 32.37923,
+    "lng": -86.25107,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 716",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.396_-86.311",
+    "lat": 32.39551,
+    "lng": -86.31138,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 717",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.396_-86.29",
+    "lat": 32.39614,
+    "lng": -86.29015,
+    "survival_score": 50,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 718",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      },
+      {
+        "year": 2023,
+        "business_name": "Business 980",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.389_-86.283",
+    "lat": 32.3887,
+    "lng": -86.28265,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 719",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.376_-86.266",
+    "lat": 32.37574,
+    "lng": -86.26557,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 722",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.373_-86.285",
+    "lat": 32.37261,
+    "lng": -86.28499,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 725",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.375_-86.28",
+    "lat": 32.37497,
+    "lng": -86.28033,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 730",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.375_-86.262",
+    "lat": 32.37468,
+    "lng": -86.26199,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 733",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.371_-86.262",
+    "lat": 32.37135,
+    "lng": -86.2618,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 738",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.398_-86.307",
+    "lat": 32.3978,
+    "lng": -86.30689,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 740",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.378_-86.305",
+    "lat": 32.37762,
+    "lng": -86.30464,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 742",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.379_-86.319",
+    "lat": 32.37938,
+    "lng": -86.31855,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 743",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.33_-86.266",
+    "lat": 32.32956,
+    "lng": -86.26597,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 744",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.383_-86.306",
+    "lat": 32.38343,
+    "lng": -86.30634,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 749",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.331_-86.26",
+    "lat": 32.3315,
+    "lng": -86.26015,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 750",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.321_-86.282",
+    "lat": 32.32062,
+    "lng": -86.28161,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 758",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.364_-86.302",
+    "lat": 32.36371,
+    "lng": -86.30201,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 760",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.4_-86.277",
+    "lat": 32.39961,
+    "lng": -86.27698,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 762",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.379_-86.288",
+    "lat": 32.37879,
+    "lng": -86.28825,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 765",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.326_-86.267",
+    "lat": 32.32576,
+    "lng": -86.26717,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 768",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.354_-86.312",
+    "lat": 32.35368,
+    "lng": -86.31185,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 770",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.331_-86.273",
+    "lat": 32.33067,
+    "lng": -86.2726,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 774",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.322_-86.273",
+    "lat": 32.32197,
+    "lng": -86.27322,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 777",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.385_-86.302",
+    "lat": 32.38527,
+    "lng": -86.30211,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 778",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.321_-86.294",
+    "lat": 32.32091,
+    "lng": -86.29353,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 780",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.344_-86.287",
+    "lat": 32.34352,
+    "lng": -86.28679,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 781",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.38_-86.282",
+    "lat": 32.38021,
+    "lng": -86.28151,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 785",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.382_-86.315",
+    "lat": 32.382,
+    "lng": -86.31517,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 791",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.361_-86.308",
+    "lat": 32.36064,
+    "lng": -86.30805,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 793",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.383_-86.316",
+    "lat": 32.38283,
+    "lng": -86.31632,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 797",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.364_-86.303",
+    "lat": 32.36367,
+    "lng": -86.30339,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 799",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.357_-86.272",
+    "lat": 32.35677,
+    "lng": -86.27203,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 806",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.328_-86.304",
+    "lat": 32.32814,
+    "lng": -86.30421,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 807",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.396_-86.317",
+    "lat": 32.39612,
+    "lng": -86.31668,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 808",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.367_-86.297",
+    "lat": 32.36745,
+    "lng": -86.29715,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 811",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.372_-86.312",
+    "lat": 32.37202,
+    "lng": -86.31166,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 812",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.349_-86.267",
+    "lat": 32.34919,
+    "lng": -86.26719,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 814",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.366_-86.317",
+    "lat": 32.36584,
+    "lng": -86.31661,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 815",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.358_-86.264",
+    "lat": 32.35758,
+    "lng": -86.2637,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 816",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.398_-86.313",
+    "lat": 32.39784,
+    "lng": -86.31343,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 821",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.4_-86.28",
+    "lat": 32.39977,
+    "lng": -86.27951,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 822",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.364_-86.268",
+    "lat": 32.36407,
+    "lng": -86.26774,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 823",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.392_-86.275",
+    "lat": 32.3918,
+    "lng": -86.27485,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 824",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.382_-86.257",
+    "lat": 32.38246,
+    "lng": -86.25734,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 826",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.354_-86.272",
+    "lat": 32.35411,
+    "lng": -86.27162,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 828",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.358_-86.31",
+    "lat": 32.35768,
+    "lng": -86.31032,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 829",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.335_-86.289",
+    "lat": 32.3348,
+    "lng": -86.28948,
+    "survival_score": 100,
+    "total_commercial_permits": 2,
+    "active_commercial_permits": 2,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 831",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      },
+      {
+        "year": 2018,
+        "business_name": "Business 928",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.325_-86.25",
+    "lat": 32.32505,
+    "lng": -86.25043,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 832",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.38_-86.276",
+    "lat": 32.37954,
+    "lng": -86.27608,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 833",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.392_-86.288",
+    "lat": 32.39195,
+    "lng": -86.28771,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 835",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.32_-86.251",
+    "lat": 32.32032,
+    "lng": -86.25106,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 836",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.391_-86.265",
+    "lat": 32.3907,
+    "lng": -86.26538,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 837",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.374_-86.318",
+    "lat": 32.3742,
+    "lng": -86.3181,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 838",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.344_-86.315",
+    "lat": 32.34379,
+    "lng": -86.31528,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 845",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.33_-86.269",
+    "lat": 32.32953,
+    "lng": -86.26874,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 846",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.371_-86.258",
+    "lat": 32.37144,
+    "lng": -86.25825,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 848",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.331_-86.268",
+    "lat": 32.331,
+    "lng": -86.26831,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 849",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.336_-86.266",
+    "lat": 32.33553,
+    "lng": -86.26607,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 850",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.383_-86.302",
+    "lat": 32.38294,
+    "lng": -86.3025,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 851",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.398_-86.284",
+    "lat": 32.39757,
+    "lng": -86.28412,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 853",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.335_-86.311",
+    "lat": 32.33469,
+    "lng": -86.3107,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 854",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.367_-86.261",
+    "lat": 32.36739,
+    "lng": -86.26138,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 855",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.32_-86.298",
+    "lat": 32.3201,
+    "lng": -86.29784,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 859",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.358_-86.294",
+    "lat": 32.35812,
+    "lng": -86.29406,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 861",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.334_-86.296",
+    "lat": 32.33379,
+    "lng": -86.29626,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 862",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.371_-86.251",
+    "lat": 32.37121,
+    "lng": -86.25132,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 864",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.361_-86.316",
+    "lat": 32.36056,
+    "lng": -86.31599,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 865",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.373_-86.279",
+    "lat": 32.37316,
+    "lng": -86.27943,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 867",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.362_-86.257",
+    "lat": 32.36168,
+    "lng": -86.25677,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 868",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.356_-86.26",
+    "lat": 32.35564,
+    "lng": -86.26018,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 869",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.338_-86.272",
+    "lat": 32.33796,
+    "lng": -86.27214,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 871",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.33_-86.27",
+    "lat": 32.33036,
+    "lng": -86.27005,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 872",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.378_-86.283",
+    "lat": 32.37755,
+    "lng": -86.28303,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 874",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.337_-86.257",
+    "lat": 32.33713,
+    "lng": -86.25728,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 878",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.386_-86.318",
+    "lat": 32.38555,
+    "lng": -86.31784,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 880",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.373_-86.281",
+    "lat": 32.37347,
+    "lng": -86.2807,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 883",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.349_-86.287",
+    "lat": 32.34908,
+    "lng": -86.28654,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2018,
+        "business_name": "Business 884",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.348_-86.26",
+    "lat": 32.34817,
+    "lng": -86.26008,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 891",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.373_-86.287",
+    "lat": 32.37332,
+    "lng": -86.2869,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 893",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.334_-86.295",
+    "lat": 32.33402,
+    "lng": -86.29521,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 897",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.325_-86.276",
+    "lat": 32.32518,
+    "lng": -86.27553,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 898",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.388_-86.284",
+    "lat": 32.38803,
+    "lng": -86.28449,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 901",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.267",
+    "lat": 32.33238,
+    "lng": -86.2666,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 906",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.383_-86.288",
+    "lat": 32.38316,
+    "lng": -86.28779,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 914",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.34_-86.278",
+    "lat": 32.34019,
+    "lng": -86.27775,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 915",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.363_-86.288",
+    "lat": 32.36284,
+    "lng": -86.28761,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 916",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.374_-86.307",
+    "lat": 32.37445,
+    "lng": -86.30714,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 917",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.352_-86.279",
+    "lat": 32.3525,
+    "lng": -86.27857,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 919",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.325_-86.3",
+    "lat": 32.32478,
+    "lng": -86.29959,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 921",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.359_-86.262",
+    "lat": 32.35929,
+    "lng": -86.26181,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 924",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.327_-86.318",
+    "lat": 32.32657,
+    "lng": -86.31831,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 926",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.371_-86.288",
+    "lat": 32.37105,
+    "lng": -86.28782,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 927",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.347_-86.274",
+    "lat": 32.3472,
+    "lng": -86.27366,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 932",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.331_-86.258",
+    "lat": 32.33121,
+    "lng": -86.25798,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 933",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.362_-86.285",
+    "lat": 32.36234,
+    "lng": -86.28501,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 934",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.325_-86.251",
+    "lat": 32.32468,
+    "lng": -86.25065,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 936",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.344_-86.28",
+    "lat": 32.34432,
+    "lng": -86.2799,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 938",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.341_-86.313",
+    "lat": 32.34147,
+    "lng": -86.3131,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 939",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.4_-86.285",
+    "lat": 32.39994,
+    "lng": -86.28526,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 940",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.393_-86.254",
+    "lat": 32.39256,
+    "lng": -86.25416,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 942",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.327_-86.263",
+    "lat": 32.32687,
+    "lng": -86.26295,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 948",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.396_-86.269",
+    "lat": 32.39588,
+    "lng": -86.26937,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 950",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.349_-86.285",
+    "lat": 32.34869,
+    "lng": -86.28508,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 951",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.367_-86.32",
+    "lat": 32.3665,
+    "lng": -86.31994,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 952",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.385_-86.255",
+    "lat": 32.38459,
+    "lng": -86.25488,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 953",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.387_-86.303",
+    "lat": 32.38703,
+    "lng": -86.30262,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 954",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.353_-86.275",
+    "lat": 32.35277,
+    "lng": -86.27493,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 959",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.338_-86.308",
+    "lat": 32.33806,
+    "lng": -86.30797,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 961",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.378_-86.279",
+    "lat": 32.37811,
+    "lng": -86.2793,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 962",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.348_-86.258",
+    "lat": 32.34816,
+    "lng": -86.25796,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 963",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.386_-86.294",
+    "lat": 32.38589,
+    "lng": -86.29369,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 964",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.385_-86.304",
+    "lat": 32.38497,
+    "lng": -86.30377,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 966",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.369_-86.302",
+    "lat": 32.36931,
+    "lng": -86.30162,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2020,
+        "business_name": "Business 967",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.339_-86.302",
+    "lat": 32.33934,
+    "lng": -86.30201,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 968",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.345_-86.285",
+    "lat": 32.34538,
+    "lng": -86.28467,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 971",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.373_-86.265",
+    "lat": 32.37315,
+    "lng": -86.26484,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2016,
+        "business_name": "Business 972",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.322_-86.286",
+    "lat": 32.32219,
+    "lng": -86.28629,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 973",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.374_-86.268",
+    "lat": 32.37416,
+    "lng": -86.26824,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 974",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.377_-86.285",
+    "lat": 32.37716,
+    "lng": -86.28494,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 975",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.328_-86.274",
+    "lat": 32.32792,
+    "lng": -86.27361,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2014,
+        "business_name": "Business 977",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.322_-86.277",
+    "lat": 32.322,
+    "lng": -86.27748,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2019,
+        "business_name": "Business 979",
+        "permit_type": "new_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.352_-86.253",
+    "lat": 32.35186,
+    "lng": -86.25256,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 982",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.33_-86.288",
+    "lat": 32.32955,
+    "lng": -86.28801,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 983",
+        "permit_type": "remodel_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.354_-86.304",
+    "lat": 32.35376,
+    "lng": -86.30394,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2024,
+        "business_name": "Business 984",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.332_-86.314",
+    "lat": 32.33151,
+    "lng": -86.31402,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2023,
+        "business_name": "Business 988",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.396_-86.316",
+    "lat": 32.39581,
+    "lng": -86.31622,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2021,
+        "business_name": "Business 992",
+        "permit_type": "new_commercial",
+        "status": "finaled"
+      }
+    ]
+  },
+  {
+    "block_id": "32.4_-86.263",
+    "lat": 32.39986,
+    "lng": -86.26276,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2022,
+        "business_name": "Business 994",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.368_-86.266",
+    "lat": 32.36781,
+    "lng": -86.26611,
+    "survival_score": 0,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 0,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 995",
+        "permit_type": "remodel_commercial",
+        "status": "expired_closed"
+      }
+    ]
+  },
+  {
+    "block_id": "32.389_-86.294",
+    "lat": 32.38899,
+    "lng": -86.29374,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2017,
+        "business_name": "Business 998",
+        "permit_type": "new_commercial",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "block_id": "32.348_-86.261",
+    "lat": 32.34822,
+    "lng": -86.26118,
+    "survival_score": 100,
+    "total_commercial_permits": 1,
+    "active_commercial_permits": 1,
+    "history": [
+      {
+        "year": 2015,
+        "business_name": "Business 999",
+        "permit_type": "remodel_commercial",
+        "status": "active"
+      }
+    ]
+  }
+]
