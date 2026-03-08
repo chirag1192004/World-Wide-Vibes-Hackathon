@@ -2,8 +2,8 @@
 ## Master Project Guide — Complete Reference
 ### "We turn open data into open doors."
 
-> **For:** Presentations, explainer videos, pitch decks, demo walkthroughs, and onboarding new contributors.
-> **Hackathon:** Atlas Vibe Coding Hackathon 2026
+> **For:** Presentations, explainer videos, pitch decks, demo walkthroughs, and onboarding contributors.
+> **Hackathon:** World Wide Vibes Hackathon 2026
 > **Deadline:** Monday, March 9, 2026 — 9:00 AM CT
 
 ---
@@ -27,36 +27,19 @@
 
 ### 🔴 MODE 1 — THE ENTREPRENEUR (Predictive Site Selection)
 
-**Entry Point:** User types a Montgomery address and selects a business category (restaurant, salon, retail, auto, etc.)
+**Entry Point:** User types a Montgomery address (with MapTiler geocoding autocomplete) and selects a business category (restaurant, salon, retail, auto, cafe, gym, barbershop, clinic, pharmacy, bakery).
 
 **What CivicPulse Does:**
 1. Uses the address to query MongoDB Atlas with `$geoNear` — pulls all commercial permits within a 1-mile radius from the last 10 years
 2. Calculates the **Business Survival Score (0–100)**:
    - Core formula: `(active permits / total permits opened) * 100`
    - Modified by: crime density within 0.5mi, city investment trend, competitor saturation
-3. Google Gemini generates a **Location Prospectus** — a 3-paragraph data-backed brief
-4. Shows the 3 highest-scoring alternative addresses for that business category
+3. Displays a **5-Year Survival Trend Chart** showing historical viability
+4. Google Gemini generates a **Location Prospectus** — a 3-paragraph data-backed brief
+5. Shows the 3 highest-scoring alternative addresses for that business category
+6. Users can **export the AI prospectus as a PDF** with CivicPulse branding
 
-**Example Output:**
-```
-Address Analyzed: 123 Dexter Ave, Montgomery AL
-Business Type: Restaurant
-Survival Score: 61/100
-
-AI Prospectus:
-"The survival score of 61 indicates moderate commercial viability at this
-address. Three businesses have operated here since 2018 — two closed within
-14 months. Crime density in the half-mile radius stands at 14 incidents
-annually, which is below the city average of 21.
-
-The two primary risk factors are competitor saturation (3 active food-service
-permits within 0.8 miles) and the building's history of short-tenancy cycles,
-which suggests structural lease issues or foot traffic limitations.
-
-Recommendation: Do not sign a multi-year lease here. If you proceed, negotiate
-a 6-month trial term. Alternatively, 456 Fairview Ave scores 84/100 with zero
-direct competitors in this category and a rising investment trend."
-```
+**Map Integration:** When the user changes the business category (e.g., Restaurant → Pharmacy), the heatmap pillars on the map dynamically shift — each industry has different viability multipliers (Pharmacy 1.2×, Gym 0.75×, etc.)
 
 ---
 
@@ -65,47 +48,11 @@ direct competitors in this category and a rising investment trend."
 **Entry Point:** User lands on the Contractor mode and sees a live list of upcoming city contracts.
 
 **What CivicPulse Does:**
-1. Reads the city's historical expenditure data to identify **recurring contract patterns** (e.g. "Montgomery spends ~$42k on landscaping every April")
-2. Crossreferences these patterns with **Bright Data-scraped local business profiles** — matching by industry keyword and geography
-3. Presents each contract as a card: "This contract is coming. You're a match. Here's your bid."
+1. Reads the city's historical expenditure data to identify **recurring contract patterns**
+2. Cross-references these patterns with **Bright Data-scraped local business profiles** — matching by industry keyword and geography
+3. Presents each contract as a card with match score, value, frequency, and predicted next award date
 4. Google Gemini **auto-drafts a complete 5-section government bid proposal** for the matched local business
-
-**Example Contract Card:**
-```
-Category: Landscaping
-Estimated Value: $42,000
-Frequency: Annual (last awarded April 2024)
-Predicted Next: April 2025
-Matched Business: Green Thumb Montgomery (Match: 91%)
-[⚡ Generate Bid Proposal]
-```
-
-**AI-Generated Bid Proposal Preview:**
-```
-1. Cover Letter
-Green Thumb Montgomery is a family-operated local business committed to
-serving the City of Montgomery...
-
-2. Scope of Work
-• Weekly mowing and edging of all designated city parcels
-• Monthly mulching of municipal flower beds
-• Seasonal planting (spring/fall cycles)...
-
-3. Pricing Schedule
-Weekly maintenance (52 visits): $28,000
-Monthly mulching (12 cycles): $6,000
-Seasonal planting (2 cycles): $5,500
-TOTAL: $39,500 (under $42,000 budget)
-
-4. Timeline
-Week 1: Site survey and crew scheduling
-Week 2: Service commencement on all designated parcels
-Monthly: Progress reporting to City Facilities Manager
-
-5. Why Us
-Green Thumb Montgomery has served Montgomery property owners for 7 years,
-employing 12 local residents. We are ready to serve our city.
-```
+5. Users can **download as .txt or export as PDF**
 
 ---
 
@@ -121,38 +68,25 @@ employing 12 local residents. We are ready to serve our city.
    - **Safety Score** — crime incident density inverse scale
    - **Contract Equity Score** — % of city contracts going to local businesses in that area
 3. Side-by-side comparison vs. Montgomery's wealthiest district (Garden District)
-4. Google Gemini drafts a **personalized 4-paragraph advocacy letter** addressed to their specific council member, pre-filled with exact dollar figures
-
-**Example Score Card:**
-```
-Neighborhood: Capitol Heights
-Civic Health Score: 48/100
-
-Infrastructure:     45/100 ████░░░░░░
-Permit Velocity:    62/100 ██████░░░░
-Public Safety:      71/100 ███████░░░
-Contract Equity:    24/100 ██░░░░░░░░
-
-City Spend Last Year: $180,000
-Garden District:      $2,100,000
-Investment Gap:       -$1,920,000
-
-Council Member: Robert Gambote
-[✉ Generate Advocacy Letter]
-```
+4. Google Gemini drafts a **personalized advocacy letter** addressed to the user's specific council member, pre-filled with exact dollar figures
+5. Users can **copy to clipboard or export as PDF**
 
 ---
 
-## PART 3 — TECHNOLOGY STACK (Complete)
+## PART 3 — TECHNOLOGY STACK (Current)
 
 ### Architecture Overview
 ```
 User Browser
     │
-    ├── React 18 + Vite (localhost:5173 / Vercel)
-    │       ├── Mapbox GL JS      ← Base dark map
-    │       ├── Three.js / Mapbox Extrusions ← 3D pillars
-    │       └── Tailwind CSS v3   ← Dark mode design system
+    ├── Next.js 15 + TypeScript (localhost:3005 / Vercel)
+    │       ├── MapTiler SDK       ← 3D map with data pillars
+    │       ├── Recharts           ← Trend visualization charts
+    │       ├── Framer Motion      ← Page & component animations
+    │       ├── Sonner             ← Toast notifications
+    │       ├── jsPDF              ← PDF export
+    │       ├── Radix UI           ← Accessible primitives
+    │       └── Tailwind CSS v4    ← Dark mode design system
     │
     └── FastAPI Server (localhost:8000)
             ├── Pandas            ← Data cleaning
@@ -170,43 +104,30 @@ User Browser
 ### Data Sources
 | Source | Dataset | Records | Usage |
 |---|---|---|---|
-| Montgomery Open Data | Building Permits | 1000+ (mock) | Survival score calculation |
-| Montgomery Open Data | Crime Incidents | 2000+ (mock) | Safety score |
-| Montgomery Open Data | City Expenditures | 500+ (mock) | Investment trend |
+| Montgomery Open Data | Building Permits | 1000+ | Survival score calculation |
+| Montgomery Open Data | Crime Incidents | 2000+ | Safety score |
+| Montgomery Open Data | City Expenditures | 500+ | Investment trend |
 | Bright Data (scraped) | Local Businesses | 20-50 | Contractor matching |
-
-### Key Database Query — The Core Engine
-```python
-# This query is what makes real-time spatial analytics possible
-db.permits.aggregate([{
-    "$geoNear": {
-        "near": {"type": "Point", "coordinates": [lng, lat]},
-        "distanceField": "distance",
-        "maxDistance": 1609,  # 1 mile in meters
-        "spherical": True
-    }
-}])
-```
 
 ---
 
 ## PART 4 — THE SHARED DATA CONTRACT
 
-Every API endpoint, React component, and AI prompt communicates using this exact JSON shape. Do not deviate.
+Every API endpoint, React component, and AI prompt communicates using this exact JSON shape.
 
 ```json
 {
   "neighborhood": {
     "name": "Capitol Heights",
     "lat": 32.3617, "lng": -86.2792,
-    "civic_health_score": 58,
+    "civic_health_score": 48,
     "infrastructure_score": 45,
     "permit_velocity_score": 62,
     "safety_score": 71,
-    "contract_equity_score": 52,
+    "contract_equity_score": 24,
     "city_spend_last_3yr": 180000,
-    "active_permits_count": 12,
-    "crime_incidents_last_yr": 94
+    "investment_gap": 1920000,
+    "council_member": "Council Member Robert Gambote"
   },
   "block_analysis": {
     "address": "123 Dexter Ave, Montgomery AL",
@@ -219,10 +140,11 @@ Every API endpoint, React component, and AI prompt communicates using this exact
     "crime_density_halfmile": 14,
     "competitor_count": 3,
     "investment_trend": "rising",
+    "city_spend_last_3yr": 420000,
     "top_3_alternatives": [
-      { "address": "456 Fairview Ave", "survival_score": 84 },
-      { "address": "789 Atlanta Hwy",  "survival_score": 81 },
-      { "address": "321 Mobile Rd",    "survival_score": 79 }
+      { "address": "456 Fairview Ave, Montgomery AL", "survival_score": 84 },
+      { "address": "789 Atlanta Hwy, Montgomery AL",  "survival_score": 81 },
+      { "address": "321 Mobile Rd, Montgomery AL",    "survival_score": 79 }
     ]
   },
   "contract_opportunity": {
@@ -230,13 +152,9 @@ Every API endpoint, React component, and AI prompt communicates using this exact
     "category": "landscaping",
     "estimated_value": 42000,
     "historical_frequency": "annual",
-    "last_awarded": "2024-04-15",
     "predicted_next": "2025-04-01",
     "matched_business": {
       "name": "Green Thumb Montgomery",
-      "address": "88 Oak Park Dr",
-      "industry": "landscaping",
-      "website": "greenthumbmgm.com",
       "match_score": 91
     }
   }
@@ -245,153 +163,167 @@ Every API endpoint, React component, and AI prompt communicates using this exact
 
 ---
 
-## PART 5 — REPOSITORY STRUCTURE (Full Map)
+## PART 5 — REPOSITORY STRUCTURE (Current)
 
 ```
 World Wide Vibes Hackathon/
 ├── documentation/
-│   ├── master_project_guide.md     ← THIS FILE
-│   ├── person1_backend_guide.md    ← Full guide for Backend Engineer
-│   ├── person2_frontend_guide.md   ← Full guide for Frontend Engineer
-│   └── person3_database_ai_guide.md ← Full guide for DB/AI Engineer
+│   ├── master_project_guide.md      ← THIS FILE
+│   ├── person1_backend_guide.md     ← Backend Engineer guide
+│   ├── person2_frontend_guide.md    ← Frontend Engineer guide (DONE)
+│   └── person3_database_ai_guide.md ← DB/AI Engineer guide
 │
-├── backend/
-│   ├── main.py                     ← [TODO: Person 1] FastAPI server
-│   ├── requirements.txt            ← All Python dependencies
-│   ├── .env.example                ← Copy to .env, fill in keys
+├── backend/                          ← FastAPI (Person 1 + Person 3)
+│   ├── main.py                       ← ✅ API server (running, all endpoints work)
+│   ├── requirements.txt              ← Python deps
+│   ├── .env.example                  ← Copy to .env, fill in keys
 │   ├── data/
-│   │   ├── permits.csv             ← Raw mock permit data
-│   │   ├── expenditures.csv        ← Raw mock expenditure data
-│   │   ├── crimes.csv              ← Raw mock crime data
-│   │   ├── permits_clean.json      ← Cleaned permit records (ready)
-│   │   ├── block_scores.json       ← Business survival scores (ready)
-│   │   ├── businesses_scraped.json ← [TODO: Person 1] Bright Data output
-│   │   └── businesses_fallback.json ← [TODO: Person 1] Hardcoded backup
+│   │   ├── permits.csv               ← Raw permit data
+│   │   ├── crimes.csv                ← Raw crime data
+│   │   ├── expenditures.csv          ← Raw expenditure data
+│   │   ├── permits_clean.json        ← ✅ Cleaned permit records
+│   │   └── block_scores.json         ← ✅ Pre-computed survival scores
 │   └── scripts/
-│       ├── generate_mock_data.py   ← Run once (already done)
-│       ├── clean_permits.py        ← Run once (already done)
-│       ├── score_engine.py         ← Run once (already done)
-│       ├── load_to_mongo.py        ← [TODO: Person 3] Run after Atlas setup
-│       ├── geo_queries.py          ← Done. Functions ready.
-│       ├── gemini_prompts.py       ← [TODO: Person 3] All 3 prompt templates
-│       └── gemini_api.py           ← [TODO: Person 3] Gemini wrapper function
+│       ├── generate_mock_data.py     ← ✅ Already run
+│       ├── clean_permits.py          ← ✅ Already run
+│       ├── score_engine.py           ← ✅ Already run
+│       ├── geo_queries.py            ← ✅ Spatial query functions
+│       ├── load_to_mongo.py          ← [TODO: Person 3] Load data into Atlas
+│       └── gemini_api.py             ← [TODO: Person 3] Gemini wrapper
 │
-└── civicpulse/                     ← React frontend
-    ├── .env.example                ← Copy to .env, add Mapbox token
-    ├── package.json                ← All npm deps installed
-    ├── tailwind.config.js          ← Complete color system (ready)
-    ├── postcss.config.js           ← Tailwind pipeline (ready)
-    └── src/
-        ├── main.jsx                ← Entry point (ready)
-        ├── index.css               ← Tailwind directives (ready)
-        ├── App.jsx                 ← Shell layout + mode toggle (ready)
-        └── components/
-            ├── CivicMap.jsx        ← [TODO: Person 2] Mapbox + heatmap
-            ├── EntrepreneurPanel.jsx ← [TODO: Person 2] Mode 1 UI
-            ├── ContractorPanel.jsx ← [TODO: Person 2] Mode 2 UI
-            └── ResidentPanel.jsx   ← [TODO: Person 2] Mode 3 UI
+└── hackethon_frontend/               ← Next.js 15 (Person 2 — DONE)
+    ├── app/
+    │   ├── page.tsx                   ← ✅ Animated landing page
+    │   ├── layout.tsx                 ← ✅ Root layout + theme provider
+    │   ├── globals.css                ← ✅ Design system + animations
+    │   └── app/
+    │       ├── page.tsx               ← ✅ Dashboard (all 3 modes + map)
+    │       └── layout.tsx             ← ✅ Dashboard layout wrapper
+    ├── components/
+    │   ├── civic-map.tsx              ← ✅ MapTiler 3D map + heatmap
+    │   ├── entrepreneur-panel.tsx     ← ✅ Mode 1 (autocomplete + trend chart)
+    │   ├── contractor-panel.tsx       ← ✅ Mode 2 (contract cards + bid gen)
+    │   ├── resident-panel.tsx         ← ✅ Mode 3 (civic equity + letter gen)
+    │   ├── ai-chat.tsx                ← ✅ Floating AI assistant
+    │   ├── address-autocomplete.tsx   ← ✅ MapTiler geocoding search
+    │   ├── onboarding-tour.tsx        ← ✅ 3-step first-visit tour
+    │   ├── skeleton-cards.tsx         ← ✅ Loading state skeletons
+    │   ├── score-ring.tsx             ← ✅ Animated score visualization
+    │   └── ui/                        ← Radix UI primitives (shadcn)
+    ├── lib/
+    │   ├── utils.ts                   ← ✅ Tailwind merge utility
+    │   ├── mock-data.ts               ← ✅ Type defs + fallback data
+    │   └── export-pdf.ts              ← ✅ PDF export utility
+    └── package.json                   ← All npm deps installed
 ```
+
+> ⚠️ **The old `civicpulse/` directory (Vite + Mapbox) is DEPRECATED. Delete it. All frontend work is in `hackethon_frontend/`.**
 
 ---
 
-## PART 6 — ENVIRONMENT VARIABLES (All Three Devs)
+## PART 6 — ENVIRONMENT VARIABLES
 
 ```ini
 # backend/.env  (Person 3 creates Atlas, Person 1 holds Bright Data key)
 MONGODB_URI=mongodb+srv://user:pass@cluster.mongodb.net/civicpulse
-GEMINI_API_KEY=your-gemini-API-key...
+GEMINI_API_KEY=your-gemini-api-key...
 BRIGHT_DATA_API_KEY=...
 
-# civicpulse/.env  (Person 2 creates Mapbox account)
-VITE_MAPBOX_TOKEN=pk.eyJ1...
-VITE_API_BASE_URL=http://localhost:8000
+# hackethon_frontend does NOT need a .env
+# MapTiler API key is hardcoded in civic-map.tsx and address-autocomplete.tsx
+# API base URL is hardcoded as http://localhost:8000 in all panel components
 ```
 
 ---
 
-## PART 7 — FALLBACK RULES (If Something Breaks During Demo)
+## PART 7 — WHAT'S DONE vs. WHAT'S LEFT
 
-| Failure | Response |
-|---|---|
-| **Three.js + WebGL conflict** | Already using Mapbox `fill-extrusion` as the default 3D approach. No Three.js risk. |
-| **Bright Data scrape fails** | `businesses_fallback.json` is ALWAYS written first. Backend auto-loads it if scraped file is empty. |
-| **Gemini API is slow/down** | FastAPI `/api/generate` has hardcoded cached outputs per mode. Returns these instantly if Gemini errors. |
-| **MongoDB Atlas unreachable** | Backend reads from flat `block_scores.json` by default. MongoDB is additive — flat JSON always works. |
-| **Mode 2 incomplete** | Drop it. Ship Mode 1 + Mode 3 perfectly. Two polished modes beat three broken ones. |
+### ✅ Person 2 (Frontend) — COMPLETE
+- Animated landing page with 3D CSS globe
+- Full dashboard with 3 modes, map, and side panels
+- MapTiler 3D map with dynamic heatmap pillars
+- Address autocomplete with MapTiler Geocoding
+- AI Chat Assistant (floating bubble)
+- PDF export on all AI outputs
+- Trend charts (5-year survival history)
+- Toast notifications across all panels
+- Keyboard shortcuts (1/2/3 mode switching)
+- Onboarding tour (3-step first visit)
+- Loading skeletons
+
+### 🔧 Person 1 (Backend) — TODO
+- [ ] Create `scripts/gemini_api.py` — the Gemini wrapper (currently uses cached fallback responses)
+- [ ] Set up Bright Data scraping to populate `data/businesses_scraped.json`
+- [ ] Create `data/businesses_fallback.json` with 10–20 hardcoded Montgomery businesses
+- [ ] Wire MongoDB into `main.py` endpoints (currently uses flat JSON files)
+- [ ] Test all API endpoints with real data
+
+### 🔧 Person 3 (Database + AI) — TODO
+- [ ] Provision MongoDB Atlas M0 cluster with database `civicpulse`
+- [ ] Create collections: `permits`, `crimes`, `expenditures`, `businesses`
+- [ ] Add `2dsphere` indexes on geospatial fields
+- [ ] Run `scripts/load_to_mongo.py` to seed data
+- [ ] Write Gemini prompt templates for all 4 modes (entrepreneur, contractor, resident, chat)
+- [ ] Test `$geoNear` queries return correct spatial results
 
 ---
 
-## PART 8 — THE DEMO SCRIPT (90 Seconds EXACTLY)
+## PART 8 — FALLBACK RULES (If Something Breaks During Demo)
 
-**Memorize this. Do not deviate.**
+| Failure | Response |
+|---|---|
+| **Gemini API is slow/down** | Backend `/api/generate` has hardcoded cached outputs per mode. Returns these instantly if Gemini errors. |
+| **MongoDB Atlas unreachable** | Backend reads from flat `block_scores.json` by default. MongoDB is additive — flat JSON always works. |
+| **Bright Data scrape fails** | If `businesses_scraped.json` is empty/missing, backend loads `businesses_fallback.json`. |
+| **MapTiler down** | Very unlikely. API key is embedded. Falls back to placeholder text. |
+
+---
+
+## PART 9 — THE DEMO SCRIPT (90 Seconds)
 
 > *"Every year, Montgomery spends millions. But that money is invisible to the people who need it most. CivicPulse changes that."*
 
-*[App loads. Map appears. Glowing 3D pillars rise across Montgomery. Green = thriving. Red = failing.]*
+*[Landing page loads. Animated globe. "Enter the Atlas" button.]*
 
 > *"These pillars are business survival rates. Built from 10 years of city permit data, stored in MongoDB Atlas."*
 
-*[Click 🔴 Entrepreneur Mode. Type a Montgomery address.]*
+*[Dashboard loads. 3D Map. Green = thriving. Red = failing.]*
 
 > *"An entrepreneur wants to open a restaurant here. In 3 seconds, CivicPulse returns a survival score of 61 out of 100. Three businesses failed at this address since 2018. Here are three better locations across the city."*
 
-*[Click ✨ Generate Location Prospectus. AI text appears.]*
+*[Click ✨ Generate Location Prospectus. AI text appears. Export PDF.]*
 
 > *"Google Gemini generates a full lease recommendation — citing the exact data — in under 5 seconds."*
 
-*[Click 🟡 Contractor Mode.]*
+*[Press '2' — Contractor Mode]*
 
-> *"The city is about to spend $42,000 on landscaping. Using Bright Data, we scraped local businesses and matched this contract to a family-owned shop on the East Side. One click — and we drafted their entire bid proposal."*
+> *"The city is about to spend $42,000 on landscaping. Using Bright Data, we scraped local businesses and matched this contract to a family-owned shop. One click — and we drafted their entire bid proposal."*
 
-*[Click 🟢 Resident Mode. Click Capitol Heights on the map.]*
+*[Press '3' — Resident Mode. Click Capitol Heights on the map.]*
 
-> *"This neighborhood scores 48 out of 100. The wealthiest district received $2.1 million in city investment last year. Capitol Heights received $180,000. That gap is $1.9 million. We generated the letter — with those exact numbers — in 4 seconds."*
+> *"This neighborhood scores 48 out of 100. The wealthiest district received $2.1 million in city investment. Capitol Heights received $180,000. That gap is $1.9 million. The advocacy letter was generated — with those exact numbers — in 4 seconds."*
 
-*[Pause. Look at the judges.]*
+*[Open the AI Chat bubble. Ask: "What's the safest neighborhood for a pharmacy?"]*
 
 > **"We turn open data into open doors."**
 
 ---
 
-## PART 9 — BUSINESS MODEL (For Pitch Slides)
-
-| Tier | Customer | Price | Value Proposition |
-|---|---|---|---|
-| **Free / Public** | Residents | $0 | Civic Equity map — hold officials accountable with data |
-| **Entrepreneur SaaS** | Small business owners | $79 / month | Predictive site selection before signing a lease |
-| **Contractor Pro** | Local service businesses | $49 / month | Contract matching + AI bid drafting |
-| **City License** | Municipal governments | $25,000 / year | White-labeled platform to improve vendor diversity programs |
-| **Regional API** | Real estate developers, banks | $500 / month | Raw geospatial economic scoring API |
-
-**TAM:** 19,000+ U.S. cities. Civic data transparency is a legal mandate (FOIA). CivicPulse is a compliance product, not just a tool.
-
----
-
 ## PART 10 — SUBMISSION CHECKLIST (Monday 8:30 AM CT)
 
+- [x] Frontend complete — landing page + dashboard with all 3 modes
+- [x] Frontend features — AI Chat, PDF export, autocomplete, trend charts, toasts, onboarding
+- [ ] Backend Gemini integration live (not using cached fallbacks)
+- [ ] MongoDB Atlas provisioned and seeded
+- [ ] At least ONE real Montgomery address returns a real survival score from MongoDB
+- [ ] At least ONE Gemini-generated output is live (not cached)
+- [ ] Bright Data scraping produces real business data
 - [ ] Live URL on Vercel (test on mobile!)
 - [ ] GitHub repo public with clear README
-- [ ] README includes: what it is, what data it uses, how MongoDB + Bright Data are used, and the live URL
-- [ ] At least ONE real Montgomery address returns a real survival score
-- [ ] At least ONE Gemini-generated output is live (not mocked)
-- [ ] Demo rehearsed at least twice — timed at under 90 seconds
+- [ ] Demo rehearsed — under 90 seconds
 - [ ] Submission form filled: project name, description, live URL, GitHub URL
 - [ ] Sponsor technologies listed: **MongoDB Atlas**, **Bright Data**, **Google Gemini**
 
 ---
 
-## PART 11 — JUDGE SCORECARD ALIGNMENT
-
-| Judge Criteria | How CivicPulse Hits It |
-|---|---|
-| Uses city open data meaningfully | 3 datasets, 10-year depth, cross-correlated spatially |
-| MongoDB Atlas is load-bearing | `$geoNear` aggregation is the core query powering all three modes |
-| Bright Data is load-bearing | Business matching in Mode 2 requires scraped profiles |
-| AI output is meaningful | 3 distinct, data-seeded, real-word Gemini outputs |
-| Visual impact | 3D extrusion pillars + dark UI = most stunning demo in the room |
-| Civic impact story | Equity, entrepreneurship, local economy — all three covered |
-| Business model exists | 5-tier revenue model documented |
-
----
-
-*Generated by Antigravity (Google Deepmind) — CivicPulse Team — March 2026*
+*CivicPulse Team — Atlas Edition — March 2026*
