@@ -34,7 +34,7 @@
 2. Calculates the **Business Survival Score (0–100)**:
    - Core formula: `(active permits / total permits opened) * 100`
    - Modified by: crime density within 0.5mi, city investment trend, competitor saturation
-3. Claude AI generates a **Location Prospectus** — a 3-paragraph data-backed brief
+3. Google Gemini generates a **Location Prospectus** — a 3-paragraph data-backed brief
 4. Shows the 3 highest-scoring alternative addresses for that business category
 
 **Example Output:**
@@ -68,7 +68,7 @@ direct competitors in this category and a rising investment trend."
 1. Reads the city's historical expenditure data to identify **recurring contract patterns** (e.g. "Montgomery spends ~$42k on landscaping every April")
 2. Crossreferences these patterns with **Bright Data-scraped local business profiles** — matching by industry keyword and geography
 3. Presents each contract as a card: "This contract is coming. You're a match. Here's your bid."
-4. Claude AI **auto-drafts a complete 5-section government bid proposal** for the matched local business
+4. Google Gemini **auto-drafts a complete 5-section government bid proposal** for the matched local business
 
 **Example Contract Card:**
 ```
@@ -121,7 +121,7 @@ employing 12 local residents. We are ready to serve our city.
    - **Safety Score** — crime incident density inverse scale
    - **Contract Equity Score** — % of city contracts going to local businesses in that area
 3. Side-by-side comparison vs. Montgomery's wealthiest district (Garden District)
-4. Claude AI drafts a **personalized 4-paragraph advocacy letter** addressed to their specific council member, pre-filled with exact dollar figures
+4. Google Gemini drafts a **personalized 4-paragraph advocacy letter** addressed to their specific council member, pre-filled with exact dollar figures
 
 **Example Score Card:**
 ```
@@ -157,7 +157,7 @@ User Browser
     └── FastAPI Server (localhost:8000)
             ├── Pandas            ← Data cleaning
             ├── PyMongo           ← MongoDB queries via $geoNear
-            ├── Anthropic SDK     ← Claude AI text generation
+            ├── Google GenAI SDK  ← Gemini AI text generation
             └── Bright Data API   ← Business profile scraping
                     │
                     └── MongoDB Atlas M0
@@ -273,8 +273,8 @@ World Wide Vibes Hackathon/
 │       ├── score_engine.py         ← Run once (already done)
 │       ├── load_to_mongo.py        ← [TODO: Person 3] Run after Atlas setup
 │       ├── geo_queries.py          ← Done. Functions ready.
-│       ├── claude_prompts.py       ← [TODO: Person 3] All 3 prompt templates
-│       └── claude_api.py           ← [TODO: Person 3] Claude wrapper function
+│       ├── gemini_prompts.py       ← [TODO: Person 3] All 3 prompt templates
+│       └── gemini_api.py           ← [TODO: Person 3] Gemini wrapper function
 │
 └── civicpulse/                     ← React frontend
     ├── .env.example                ← Copy to .env, add Mapbox token
@@ -299,7 +299,7 @@ World Wide Vibes Hackathon/
 ```ini
 # backend/.env  (Person 3 creates Atlas, Person 1 holds Bright Data key)
 MONGODB_URI=mongodb+srv://user:pass@cluster.mongodb.net/civicpulse
-ANTHROPIC_API_KEY=sk-ant-...
+GEMINI_API_KEY=your-gemini-API-key...
 BRIGHT_DATA_API_KEY=...
 
 # civicpulse/.env  (Person 2 creates Mapbox account)
@@ -315,7 +315,7 @@ VITE_API_BASE_URL=http://localhost:8000
 |---|---|
 | **Three.js + WebGL conflict** | Already using Mapbox `fill-extrusion` as the default 3D approach. No Three.js risk. |
 | **Bright Data scrape fails** | `businesses_fallback.json` is ALWAYS written first. Backend auto-loads it if scraped file is empty. |
-| **Claude API is slow/down** | FastAPI `/api/generate` has hardcoded cached outputs per mode. Returns these instantly if Claude errors. |
+| **Gemini API is slow/down** | FastAPI `/api/generate` has hardcoded cached outputs per mode. Returns these instantly if Gemini errors. |
 | **MongoDB Atlas unreachable** | Backend reads from flat `block_scores.json` by default. MongoDB is additive — flat JSON always works. |
 | **Mode 2 incomplete** | Drop it. Ship Mode 1 + Mode 3 perfectly. Two polished modes beat three broken ones. |
 
@@ -337,7 +337,7 @@ VITE_API_BASE_URL=http://localhost:8000
 
 *[Click ✨ Generate Location Prospectus. AI text appears.]*
 
-> *"Claude AI generates a full lease recommendation — citing the exact data — in under 5 seconds."*
+> *"Google Gemini generates a full lease recommendation — citing the exact data — in under 5 seconds."*
 
 *[Click 🟡 Contractor Mode.]*
 
@@ -373,10 +373,10 @@ VITE_API_BASE_URL=http://localhost:8000
 - [ ] GitHub repo public with clear README
 - [ ] README includes: what it is, what data it uses, how MongoDB + Bright Data are used, and the live URL
 - [ ] At least ONE real Montgomery address returns a real survival score
-- [ ] At least ONE Claude-generated output is live (not mocked)
+- [ ] At least ONE Gemini-generated output is live (not mocked)
 - [ ] Demo rehearsed at least twice — timed at under 90 seconds
 - [ ] Submission form filled: project name, description, live URL, GitHub URL
-- [ ] Sponsor technologies listed: **MongoDB Atlas**, **Bright Data**, **Anthropic Claude**
+- [ ] Sponsor technologies listed: **MongoDB Atlas**, **Bright Data**, **Google Gemini**
 
 ---
 
@@ -387,7 +387,7 @@ VITE_API_BASE_URL=http://localhost:8000
 | Uses city open data meaningfully | 3 datasets, 10-year depth, cross-correlated spatially |
 | MongoDB Atlas is load-bearing | `$geoNear` aggregation is the core query powering all three modes |
 | Bright Data is load-bearing | Business matching in Mode 2 requires scraped profiles |
-| AI output is meaningful | 3 distinct, data-seeded, real-word Claude outputs |
+| AI output is meaningful | 3 distinct, data-seeded, real-word Gemini outputs |
 | Visual impact | 3D extrusion pillars + dark UI = most stunning demo in the room |
 | Civic impact story | Equity, entrepreneurship, local economy — all three covered |
 | Business model exists | 5-tier revenue model documented |

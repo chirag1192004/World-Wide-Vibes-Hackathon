@@ -56,7 +56,7 @@ Current `requirements.txt`:
 fastapi
 uvicorn
 pandas
-anthropic
+google-genai
 pymongo
 python-dotenv
 ```
@@ -68,7 +68,7 @@ copy .env.example .env
 Fill in every value:
 ```ini
 MONGODB_URI=mongodb+srv://user:pass@cluster.mongodb.net/civicpulse
-ANTHROPIC_API_KEY=sk-ant-...
+GEMINI_API_KEY=your_gemini_key_here
 BRIGHT_DATA_API_KEY=...
 MAPBOX_TOKEN=pk.eyJ1...
 ```
@@ -306,13 +306,13 @@ CACHED_OUTPUTS = {
 
 @app.post("/api/generate")
 def generate(req: GenReq):
-    """Generate AI output via Claude. Falls back to cached response if Claude fails."""
+    """Generate AI output via Gemini. Falls back to cached response if Gemini fails."""
     try:
-        from scripts.claude_api import generate_output
+        from scripts.gemini_api import generate_output
         text = generate_output(req.mode, req.data)
-        return {"output": text, "mode": req.mode, "source": "claude"}
+        return {"output": text, "mode": req.mode, "source": "gemini"}
     except Exception as e:
-        print(f"[WARN] Claude fallback: {e}")
+        print(f"[WARN] Gemini fallback: {e}")
         return {"output": CACHED_OUTPUTS.get(req.mode, "Output unavailable."), "mode": req.mode, "source": "cache"}
 ```
 

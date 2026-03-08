@@ -1,7 +1,7 @@
 # 🗄️ PERSON 3 — DATABASE & AI ENGINEER
 ## CivicPulse (Atlas Edition) — Complete Implementation Guide
 
-> **Role:** MongoDB Atlas provisioning, geospatial queries, Claude AI prompt engineering
+> **Role:** MongoDB Atlas provisioning, geospatial queries, Google Gemini prompt engineering
 > **Workdir:** `World Wide Vibes Hackathon/backend/`
 > **Deadline:** Monday March 9, 9:00 AM CT
 
@@ -11,7 +11,7 @@
 
 ```
 backend/
-├── .env.example               ← Your MONGODB_URI and ANTHROPIC_API_KEY go here
+├── .env.example               ← Your MONGODB_URI and GEMINI_API_KEY go here
 ├── data/
 │   ├── permits_clean.json     ← READY (Person 1 generated this)
 │   ├── block_scores.json      ← READY (Person 1 generated this)
@@ -22,7 +22,7 @@ backend/
     └── geo_queries.py         ← WRITTEN — geo functions ready
 ```
 
-**Your two main deliverables:** `scripts/claude_prompts.py` and `scripts/claude_api.py`
+**Your two main deliverables:** `scripts/gemini_prompts.py` and `scripts/gemini_api.py`
 
 ---
 
@@ -62,7 +62,7 @@ This is a one-time setup. Do it first.
 ### Step 5 — Add to `.env`
 ```ini
 MONGODB_URI=mongodb+srv://civicpulse_user:CivicPulse2025!@civicpulse.abc123.mongodb.net/civicpulse?retryWrites=true&w=majority
-ANTHROPIC_API_KEY=sk-ant-...your-key...
+GEMINI_API_KEY=your-gemini-key-here
 ```
 
 ---
@@ -119,15 +119,15 @@ print(f"Found {len(spend)} expenditure records")
 
 ---
 
-## 5. YOUR MAIN DELIVERABLE A — `scripts/claude_prompts.py`
+## 5. YOUR MAIN DELIVERABLE A — `scripts/gemini_prompts.py`
 
-This file holds ALL three Claude prompt templates. Create it exactly:
+This file holds ALL three Gemini prompt templates. Create it exactly:
 
 ```python
-# backend/scripts/claude_prompts.py
+# backend/scripts/gemini_prompts.py
 """
-All three Claude AI prompts for CivicPulse.
-These are imported by claude_api.py and called from the /api/generate endpoint.
+All three Gemini AI prompts for CivicPulse.
+These are imported by gemini_api.py and called from the /api/generate endpoint.
 """
 
 # ─── ENTREPRENEUR PROMPTS ────────────────────────────────────────────────────
@@ -236,18 +236,18 @@ Final line — exactly:
 
 ---
 
-## 6. YOUR MAIN DELIVERABLE B — `scripts/claude_api.py`
+## 6. YOUR MAIN DELIVERABLE B — `scripts/gemini_api.py`
 
 ```python
-# backend/scripts/claude_api.py
+# backend/scripts/gemini_api.py
 """
-Single function entry point for all Claude API calls.
+Single function entry point for all Gemini API calls.
 Imported by main.py's /api/generate endpoint.
 """
 import os
-import anthropic
+from google import genai
 from dotenv import load_dotenv
-from scripts.claude_prompts import (
+from scripts.gemini_prompts import (
     ENTREPRENEUR_SYSTEM, ENTREPRENEUR_USER,
     CONTRACTOR_SYSTEM, CONTRACTOR_USER,
     RESIDENT_SYSTEM, RESIDENT_USER,
@@ -255,10 +255,10 @@ from scripts.claude_prompts import (
 
 load_dotenv()
 
-# Initialize the Anthropic client once (uses ANTHROPIC_API_KEY from env)
-client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+# Initialize the Gemini client (uses GEMINI_API_KEY from env)
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "gemini-2.5-flash"
 
 def generate_output(mode: str, data: dict) -> str:
     """
@@ -269,11 +269,11 @@ def generate_output(mode: str, data: dict) -> str:
         data: Dict with keys matching the .format() placeholders in the prompt
     
     Returns:
-        Generated text string from Claude.
+        Generated text string from Gemini.
     
     Raises:
         ValueError: If mode is not recognized
-        anthropic.APIError: If the API call fails (let main.py handle fallback)
+        Exception: If the API call fails (let main.py handle fallback)
     """
     if mode == "entrepreneur":
         system_prompt = ENTREPRENEUR_SYSTEM
@@ -288,14 +288,12 @@ def generate_output(mode: str, data: dict) -> str:
         raise ValueError(f"Unknown mode: '{mode}'. Must be entrepreneur, contractor, or resident.")
     
     # Make the API call
-    message = client.messages.create(
+    response = client.models.generate_content(
         model=MODEL,
-        max_tokens=1024,
-        system=system_prompt,
-        messages=[{"role": "user", "content": user_prompt}]
+        contents=[f"System Instructions: {system_prompt}\n\nUser Request: {user_prompt}"]
     )
     
-    return message.content[0].text
+    return response.text
 
 
 # Manual test — run this file directly to verify your API key works
@@ -309,18 +307,18 @@ if __name__ == "__main__":
         "gap": 1920000,
         "deficit_list": "cracked roads, broken streetlights, unmaintained parks",
     }
-    print("Testing Claude API — Resident Mode...")
+    print("Testing Gemini API — Resident Mode...")
     print("-" * 60)
     result = generate_output("resident", test_data)
     print(result)
     print("-" * 60)
-    print("[OK] Claude API is working correctly.")
+    print("[OK] Gemini API is working correctly.")
 ```
 
 **Test it:**
 ```bash
 cd backend
-python scripts/claude_api.py
+python scripts/gemini_api.py
 ```
 
 Expected: A full 4-paragraph advocacy letter in your terminal.
@@ -331,7 +329,7 @@ Expected: A full 4-paragraph advocacy letter in your terminal.
 
 Person 1's `main.py` already imports and calls `generate_output` via:
 ```python
-from scripts.claude_api import generate_output
+from scripts.gemini_api import generate_output
 ```
 And the geo queries via:
 ```python
@@ -347,11 +345,11 @@ You don't need to modify `main.py` — just ensure your scripts are correctly sa
 - [ ] MongoDB Atlas M0 cluster is running at `cloud.mongodb.com`
 - [ ] Network Access allows `0.0.0.0/0`
 - [ ] `.env` has correct `MONGODB_URI` (with password)
-- [ ] `.env` has valid `ANTHROPIC_API_KEY`
+- [ ] `.env` has valid `GEMINI_API_KEY`
 - [ ] `python scripts/load_to_mongo.py` loads data without errors
 - [ ] Atlas Collections: `permits`, `crimes`, `expenditures` have documents
 - [ ] `2dsphere` indexes confirmed in Atlas UI under "Indexes"
-- [ ] `scripts/claude_prompts.py` created with all 3 prompt pairs
-- [ ] `scripts/claude_api.py` created and tested directly
-- [ ] `python scripts/claude_api.py` prints a full letter (not an error)
-- [ ] ✅ Tell Person 1: **"Claude and MongoDB are wired. You can import them."**
+- [ ] `scripts/gemini_prompts.py` created with all 3 prompt pairs
+- [ ] `scripts/gemini_api.py` created and tested directly
+- [ ] `python scripts/gemini_api.py` prints a full letter (not an error)
+- [ ] ✅ Tell Person 1: **"Gemini and MongoDB are wired. You can import them."**
