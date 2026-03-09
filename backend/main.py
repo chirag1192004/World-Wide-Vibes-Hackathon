@@ -10,7 +10,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+PORT = int(os.getenv("PORT", 8000))
+
 app = FastAPI(title="CivicPulse API", version="1.0.0")
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -533,3 +536,11 @@ def generate(req: GenReq):
             "mode": req.mode,
             "source": "cache",
         }
+
+
+# ─── ENTRYPOINT ───────────────────────────────────────────────────────────────
+if __name__ == "__main__":
+    import uvicorn
+    print(f"[server] Starting CivicPulse API on http://0.0.0.0:{PORT}")
+    uvicorn.run("main:app", host="0.0.0.0", port=PORT, reload=False)
+

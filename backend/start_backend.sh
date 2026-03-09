@@ -7,6 +7,12 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$SCRIPT_DIR"
 
+# Load PORT from .env if present (default: 8000)
+if [ -f ".env" ]; then
+  export $(grep -v '^#' .env | xargs)
+fi
+PORT="${PORT:-8000}"
+
 # Create venv if it doesn't exist
 if [ ! -d "venv" ]; then
   echo "[setup] Creating virtual environment..."
@@ -27,5 +33,5 @@ if [ ! -f "data/businesses_scraped.json" ]; then
 fi
 
 # Start server
-echo "[server] Starting CivicPulse API on http://localhost:8000"
-exec python3 -m uvicorn main:app --host 0.0.0.0 --port 8000 "$@"
+echo "[server] Starting CivicPulse API on http://localhost:${PORT}"
+exec python3 -m uvicorn main:app --host 0.0.0.0 --port "${PORT}" "$@"
