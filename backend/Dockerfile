@@ -9,8 +9,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy backend source code
 COPY . .
 
-# Expose the API port
-EXPOSE 7860
+# Expose the API port (Render injects its own $PORT at runtime)
+EXPOSE 8000
 
-# Run Uvicorn specifically on 0.0.0.0 to be publicly accessible on HuggingFace's required port
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
+# Shell-form so $PORT env var from Render is expanded at runtime.
+# Falls back to 8000 for local Docker usage.
+CMD uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}
