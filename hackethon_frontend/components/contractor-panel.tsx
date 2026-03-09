@@ -119,7 +119,10 @@ export default function ContractorPanel({ selectedLocation }: ContractorPanelPro
                 className="h-8 w-8 animate-spin rounded-full border-3 border-t-transparent"
                 style={{ borderColor: `${ACCENT}40`, borderTopColor: 'transparent' }}
               />
-              <span className="text-sm text-muted-foreground">Loading contracts...</span>
+              <span className="text-sm font-medium text-foreground">Scraping Local Businesses...</span>
+              <span className="text-xs text-muted-foreground text-center max-w-[200px]">
+                CivicPulse is performing a live web scrape to find real Montgomery contractors for these bids. This takes ~5 seconds.
+              </span>
             </div>
           </motion.div>
         )}
