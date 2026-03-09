@@ -442,6 +442,8 @@ def block(lat: float = Query(...), lng: float = Query(...), category: str = Quer
     })
 
 
+
+
 @app.get("/api/neighborhood")
 def neighborhood(lat: float = Query(...), lng: float = Query(...)):
     """Neighborhood data for Resident mode. Tries MongoDB first, falls back to static data."""
