@@ -171,12 +171,16 @@ def scrape_with_duckduckgo():
 
 
 def main():
-    os.makedirs("../data", exist_ok=True)
+    # Ensure we strictly write to backend/data relative to this script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(script_dir, "..", "data")
+    os.makedirs(data_dir, exist_ok=True)
 
     # Always write fallback first
-    with open("../data/businesses_fallback.json", "w") as f:
+    fallback_path = os.path.join(data_dir, "businesses_fallback.json")
+    with open(fallback_path, "w") as f:
         json.dump(FALLBACK_BUSINESSES, f, indent=2)
-    print(f"[OK] Wrote {len(FALLBACK_BUSINESSES)} fallback businesses.")
+    print(f"[OK] Wrote {len(FALLBACK_BUSINESSES)} fallback businesses to {fallback_path}")
 
     # Try DuckDuckGo (free, no API key needed)
     scraped = scrape_with_duckduckgo()
@@ -185,9 +189,10 @@ def main():
     source = "DuckDuckGo (live)" if scraped else "fallback (hardcoded)"
     print(f"[OK] Using {source} data ({len(output)} businesses).")
 
-    with open("../data/businesses_scraped.json", "w") as f:
+    scraped_path = os.path.join(data_dir, "businesses_scraped.json")
+    with open(scraped_path, "w") as f:
         json.dump(output, f, indent=2)
-    print("[OK] Saved to data/businesses_scraped.json")
+    print(f"[OK] Saved to {scraped_path}")
 
 
 if __name__ == "__main__":
