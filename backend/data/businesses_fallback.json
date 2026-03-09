@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Green Thumb Montgomery",
+    "address": "88 Oak Park Dr",
+    "lat": 32.365,
+    "lng": -86.279,
+    "category": "landscaping",
+    "website": "greenthumbmgm.com"
+  },
+  {
+    "name": "Capital City Caterers",
+    "address": "210 Dexter Ave",
+    "lat": 32.379,
+    "lng": -86.307,
+    "category": "catering",
+    "website": "capitalcitycatering.com"
+  },
+  {
+    "name": "Montgomery IT Solutions",
+    "address": "400 Bell St",
+    "lat": 32.37,
+    "lng": -86.295,
+    "category": "it_services",
+    "website": "mgmit.com"
+  },
+  {
+    "name": "River Region Plumbing",
+    "address": "752 Madison Ave",
+    "lat": 32.361,
+    "lng": -86.284,
+    "category": "plumbing",
+    "website": "riverregionplumbing.com"
+  },
+  {
+    "name": "Southern Sweets Bakery",
+    "address": "1500 Carter Hill",
+    "lat": 32.355,
+    "lng": -86.289,
+    "category": "bakery",
+    "website": "southernsweetsmgm.com"
+  },
+  {
+    "name": "Dexter Ave Clinic",
+    "address": "120 Dexter Ave",
+    "lat": 32.378,
+    "lng": -86.308,
+    "category": "clinic",
+    "website": "dexterclinic.com"
+  },
+  {
+    "name": "Cloverdale Pharmacy",
+    "address": "1042 E Fairview",
+    "lat": 32.349,
+    "lng": -86.295,
+    "category": "pharmacy",
+    "website": "cloverdalepharmacy.com"
+  },
+  {
+    "name": "Montgomery Auto Repair",
+    "address": "2500 Atlanta Hwy",
+    "lat": 32.376,
+    "lng": -86.255,
+    "category": "auto",
+    "website": "mgmautorepair.com"
+  },
+  {
+    "name": "Elite Fitness Gym",
+    "address": "3400 Eastern Blvd",
+    "lat": 32.351,
+    "lng": -86.216,
+    "category": "gym",
+    "website": "elitefitnessmgm.com"
+  },
+  {
+    "name": "Main Street Cafe",
+    "address": "200 Main St",
+    "lat": 32.35,
+    "lng": -86.29,
+    "category": "cafe",
+    "website": "mainstreetcafemgm.com"
+  },
+  {
+    "name": "The Styling Salon",
+    "address": "800 Court St",
+    "lat": 32.37,
+    "lng": -86.31,
+    "category": "salon",
+    "website": "stylingsalonmgm.com"
+  },
+  {
+    "name": "City Barbershop",
+    "address": "450 Perry St",
+    "lat": 32.375,
+    "lng": -86.305,
+    "category": "barbershop",
+    "website": "citybarbershopmgm.com"
+  },
+  {
+    "name": "Downtown Retail",
+    "address": "300 Commerce St",
+    "lat": 32.38,
+    "lng": -86.312,
+    "category": "retail",
+    "website": "downtownretailmgm.com"
+  },
+  {
+    "name": "Bama Construction",
+    "address": "1550 N Blvd",
+    "lat": 32.4,
+    "lng": -86.25,
+    "category": "construction",
+    "website": "bamaconstruction.com"
+  },
+  {
+    "name": "Southern Legal Services",
+    "address": "400 Washington Ave",
+    "lat": 32.377,
+    "lng": -86.3,
+    "category": "legal",
+    "website": "southernlegalmgm.com"
+  },
+  {
+    "name": "Riverfront Real Estate",
+    "address": "100 Riverfront Pkwy",
+    "lat": 32.385,
+    "lng": -86.315,
+    "category": "real_estate",
+    "website": "riverfrontremgm.com"
+  },
+  {
+    "name": "Montgomery Dental Care",
+    "address": "1200 S Perry St",
+    "lat": 32.365,
+    "lng": -86.305,
+    "category": "dental",
+    "website": "mgmdentalcare.com"
+  },
+  {
+    "name": "Capitol Vet Clinic",
+    "address": "1800 E South Blvd",
+    "lat": 32.34,
+    "lng": -86.26,
+    "category": "veterinary",
+    "website": "capitolvetmgm.com"
+  },
+  {
+    "name": "Oak Park Landscaping",
+    "address": "3000 Oak Park Dr",
+    "lat": 32.36,
+    "lng": -86.27,
+    "category": "landscaping",
+    "website": "oakparklandscaping.com"
+  },
+  {
+    "name": "Alabama Printing Co",
+    "address": "500 N Decatur St",
+    "lat": 32.385,
+    "lng": -86.295,
+    "category": "printing",
+    "website": "alabamaprintingco.com"
+  }
+]

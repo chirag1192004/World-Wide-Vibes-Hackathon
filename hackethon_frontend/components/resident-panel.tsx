@@ -7,7 +7,7 @@ import { MapPin, User, Mail, Sparkles, TrendingDown, Copy, Check, BarChart3, Shi
 import { toast } from 'sonner'
 
 const ACCENT = '#22c55e'
-const API_BASE = 'http://localhost:8000'
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000'
 
 interface ResidentPanelProps {
   selectedLocation: { lat: number; lng: number } | null

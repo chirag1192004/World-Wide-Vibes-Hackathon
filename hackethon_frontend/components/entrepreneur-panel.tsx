@@ -15,7 +15,7 @@ import { toast } from 'sonner'
 import { AreaChart, Area, ResponsiveContainer, Tooltip as RTooltip } from 'recharts'
 
 const ACCENT = '#f97316'
-const API_BASE = 'http://localhost:8000'
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000'
 
 // Mock trend data generator
 function generateTrendData(score: number) {

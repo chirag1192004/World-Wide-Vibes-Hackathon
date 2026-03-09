@@ -157,7 +157,8 @@ export default function CivicMap({ onLocationSelect, activeMode, mapView, select
 
     // Fetch and add new markers for each data point
     const categoryParam = selectedCategory ? `?category=${selectedCategory}` : ''
-    fetch(`http://localhost:8000/api/heatmap${categoryParam}`)
+    const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000'
+    fetch(`${API_BASE}/api/heatmap${categoryParam}`)
       .then(r => r.json())
       .then(data => {
         data.forEach((point: any) => {

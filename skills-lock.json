@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "skills": {
+    "bright-data-best-practices": {
+      "source": "brightdata/skills",
+      "sourceType": "github",
+      "computedHash": "ba3258df8265b5d06cb19dddb81fa8066d1b75f1f1bf1e938e0b010b79f5784b"
+    },
+    "bright-data-mcp": {
+      "source": "brightdata/skills",
+      "sourceType": "github",
+      "computedHash": "ffa5caa543553fe4f23b016d7b192d82ad5779506422442d7ab0e3cbd5c5b08a"
+    },
+    "data-feeds": {
+      "source": "brightdata/skills",
+      "sourceType": "github",
+      "computedHash": "d06fc83576005c8f7a8face3b06fb483de10fc96de3cc3806fe0b532d79111d5"
+    },
+    "scrape": {
+      "source": "brightdata/skills",
+      "sourceType": "github",
+      "computedHash": "e721178979b57539332fe8547e8a91204eaa20bf17fffd9419ba8df23454f8e4"
+    },
+    "search": {
+      "source": "brightdata/skills",
+      "sourceType": "github",
+      "computedHash": "23a045315fad96158330b600b920e3310e9b8ea4a8292c2e225605215a1ba3b6"
+    }
+  }
+}
