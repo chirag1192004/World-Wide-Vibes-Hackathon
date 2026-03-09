@@ -15,7 +15,10 @@ import { toast } from 'sonner'
 import { AreaChart, Area, ResponsiveContainer, Tooltip as RTooltip } from 'recharts'
 
 const ACCENT = '#f97316'
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://chirag11092004-civicpulse-api.hf.space'
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ||
+  (typeof window !== 'undefined' && window.location.hostname === 'localhost'
+    ? 'http://localhost:8000'
+    : 'https://chirag11092004-civicpulse-api.hf.space')
 
 // Mock trend data generator
 function generateTrendData(score: number) {

@@ -4,7 +4,10 @@ import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { MessageCircle, X, Send, Sparkles, Bot, User, Loader2 } from 'lucide-react'
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://chirag11092004-civicpulse-api.hf.space'
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ||
+    (typeof window !== 'undefined' && window.location.hostname === 'localhost'
+        ? 'http://localhost:8000'
+        : 'https://chirag11092004-civicpulse-api.hf.space')
 
 interface Message {
     id: string

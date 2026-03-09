@@ -7,7 +7,10 @@ import { MapPin, User, Mail, Sparkles, TrendingDown, Copy, Check, BarChart3, Shi
 import { toast } from 'sonner'
 
 const ACCENT = '#22c55e'
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://chirag11092004-civicpulse-api.hf.space'
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ||
+  (typeof window !== 'undefined' && window.location.hostname === 'localhost'
+    ? 'http://localhost:8000'
+    : 'https://chirag11092004-civicpulse-api.hf.space')
 
 interface ResidentPanelProps {
   selectedLocation: { lat: number; lng: number } | null

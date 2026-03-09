@@ -157,7 +157,10 @@ export default function CivicMap({ onLocationSelect, activeMode, mapView, select
 
     // Fetch and add new markers for each data point
     const categoryParam = selectedCategory ? `?category=${selectedCategory}` : ''
-    const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://chirag11092004-civicpulse-api.hf.space'
+    const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ||
+      (typeof window !== 'undefined' && window.location.hostname === 'localhost'
+        ? 'http://localhost:8000'
+        : 'https://chirag11092004-civicpulse-api.hf.space')
     fetch(`${API_BASE}/api/heatmap${categoryParam}`)
       .then(r => r.json())
       .then(data => {
