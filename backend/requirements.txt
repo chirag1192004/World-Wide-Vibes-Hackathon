@@ -3,4 +3,4 @@ uvicorn
 pandas
 pymongo
 python-dotenv
-google-generativeai
+google-genai
