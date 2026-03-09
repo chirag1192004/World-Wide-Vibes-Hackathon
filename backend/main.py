@@ -29,8 +29,22 @@ def load_json(path):
 
 BASE = os.path.dirname(__file__)
 BLOCK_SCORES = load_json(os.path.join(BASE, "data", "block_scores.json"))
-BUSINESSES   = load_json(os.path.join(BASE, "data", "businesses_scraped.json")) or \
-               load_json(os.path.join(BASE, "data", "businesses_fallback.json"))
+
+LIVE_BUSINESSES = []
+
+def get_live_businesses():
+    global LIVE_BUSINESSES
+    if not LIVE_BUSINESSES:
+        try:
+            from scripts.scrape_businesses import scrape_with_duckduckgo, FALLBACK_BUSINESSES
+            print("[INFO] Fetching live business data through scraping...")
+            scraped = scrape_with_duckduckgo()
+            LIVE_BUSINESSES = scraped if scraped else FALLBACK_BUSINESSES
+        except Exception as e:
+            print(f"[ERROR] Live scraping failed: {e}")
+            from scripts.scrape_businesses import FALLBACK_BUSINESSES
+            LIVE_BUSINESSES = FALLBACK_BUSINESSES
+    return LIVE_BUSINESSES
 
 # ─── NEIGHBORHOODS (static reference data) ────────────────────────────────────
 NEIGHBORHOODS = [
@@ -139,12 +153,13 @@ CATEGORY_KEYWORDS = {
 }
 
 def match_business_to_contract(contract_category: str) -> dict:
-    """Find the best matching business from BUSINESSES for a contract category."""
+    """Find the best matching business from live scraped data for a contract category."""
+    biz_list = get_live_businesses()
     keywords = CATEGORY_KEYWORDS.get(contract_category, [contract_category])
     best = None
     best_score = 0
 
-    for biz in BUSINESSES:
+    for biz in biz_list:
         biz_cat = biz.get("category", "").lower()
         biz_name = biz.get("name", "").lower()
         score = 0

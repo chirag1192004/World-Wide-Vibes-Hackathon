@@ -171,29 +171,11 @@ def scrape_with_duckduckgo():
 
 
 def main():
-    # Ensure we strictly write to backend/data relative to this script
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(script_dir, "..", "data")
-    os.makedirs(data_dir, exist_ok=True)
-
-    # Always write fallback first
-    fallback_path = os.path.join(data_dir, "businesses_fallback.json")
-    with open(fallback_path, "w") as f:
-        json.dump(FALLBACK_BUSINESSES, f, indent=2)
-    print(f"[OK] Wrote {len(FALLBACK_BUSINESSES)} fallback businesses to {fallback_path}")
-
-    # Try DuckDuckGo (free, no API key needed)
+    print("[INFO] Testing live scrape integration...")
     scraped = scrape_with_duckduckgo()
-
     output = scraped if scraped else FALLBACK_BUSINESSES
     source = "DuckDuckGo (live)" if scraped else "fallback (hardcoded)"
-    print(f"[OK] Using {source} data ({len(output)} businesses).")
-
-    scraped_path = os.path.join(data_dir, "businesses_scraped.json")
-    with open(scraped_path, "w") as f:
-        json.dump(output, f, indent=2)
-    print(f"[OK] Saved to {scraped_path}")
-
+    print(f"[OK] Successfully fetched {len(output)} businesses via {source}.")
 
 if __name__ == "__main__":
     main()
