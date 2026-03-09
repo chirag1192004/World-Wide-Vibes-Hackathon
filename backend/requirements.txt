@@ -4,3 +4,5 @@ pandas
 pymongo
 python-dotenv
 google-genai
+duckduckgo-search
+requests
