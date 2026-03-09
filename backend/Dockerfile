@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the API port
-EXPOSE 8000
+EXPOSE 7860
 
-# Run Uvicorn specifically on 0.0.0.0 to be publicly accessible
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Run Uvicorn specifically on 0.0.0.0 to be publicly accessible on HuggingFace's required port
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
