@@ -16,6 +16,7 @@ import {
   Globe,
   ChevronDown,
 } from 'lucide-react'
+import Image from 'next/image'
 
 /* ─── Animated floating particle ──────────────────────────────────────── */
 function Particle({ delay, x, y, size }: { delay: number; x: number; y: number; size: number }) {
@@ -231,10 +232,12 @@ export default function LandingPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="mb-8 flex items-center gap-2 rounded-full border border-teal-500/30 bg-teal-500/10 px-4 py-1.5"
+          className="mb-8 flex items-center gap-3 rounded-full border border-teal-500/30 bg-teal-500/10 px-5 py-2"
         >
-          <Sparkles className="h-3.5 w-3.5 text-teal-400" />
-          <span className="text-xs font-medium text-teal-400">World Wide Vibes Hackathon 2025</span>
+          <div className="relative h-6 w-6 overflow-hidden rounded-full border border-teal-400/50 shadow-[0_0_12px_rgba(45,212,191,0.5)]">
+             <Image src="/logo.png" alt="CivicPulse" fill className="object-cover" />
+          </div>
+          <span className="text-sm font-medium text-teal-400">World Wide Vibes Hackathon 2025</span>
         </motion.div>
 
         {/* Headline */}
@@ -442,8 +445,10 @@ export default function LandingPage() {
       {/* ── Footer ── */}
       <footer className="relative z-10 border-t border-border/30 py-8">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 sm:flex-row">
-          <div className="flex items-center gap-2">
-            <Sparkles className="h-4 w-4 text-teal-400" />
+          <div className="flex items-center gap-3">
+             <div className="relative h-7 w-7 overflow-hidden rounded-md border border-teal-400/30">
+                <Image src="/logo.png" alt="CivicPulse Logo" fill className="object-cover" />
+             </div>
             <span className="text-sm font-semibold">CivicPulse</span>
             <span className="text-xs text-muted-foreground">Atlas Edition</span>
           </div>

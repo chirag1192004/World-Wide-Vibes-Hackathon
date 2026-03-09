@@ -1,0 +1,27 @@
+services:
+  # BACKEND SERVICE
+  - type: web
+    name: civicpulse-backend
+    env: python
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: BRIGHT_DATA_API_KEY
+        sync: false
+
+  # FRONTEND (Next.js config for Render - Vercel is highly recommended instead)
+  - type: web
+    name: civicpulse-frontend
+    env: node
+    buildCommand: "cd hackethon_frontend && npm install && npm run build"
+    startCommand: "cd hackethon_frontend && npm run start"
+    envVars:
+      - key: NEXT_PUBLIC_API_BASE_URL
+        fromService:
+          type: web
+          name: civicpulse-backend
+          envVarKey: RENDER_EXTERNAL_URL

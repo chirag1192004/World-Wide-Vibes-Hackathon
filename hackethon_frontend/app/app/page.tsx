@@ -24,6 +24,7 @@ import {
     Map as MapIcon,
     ArrowLeft,
 } from 'lucide-react'
+import Image from 'next/image'
 import { type BusinessCategory, BUSINESS_CATEGORIES } from '@/lib/mock-data'
 
 type Mode = 'entrepreneur' | 'contractor' | 'resident'
@@ -116,10 +117,8 @@ export default function DashboardPage() {
                             className="absolute inset-0 rounded-xl opacity-20 blur-lg"
                             style={{ backgroundColor: currentColor }}
                         />
-                        <div
-                            className="relative flex h-10 w-10 items-center justify-center rounded-xl border border-border/50 bg-card"
-                        >
-                            <Sparkles className="h-5 w-5" style={{ color: currentColor }} />
+                        <div className="relative h-10 w-10 overflow-hidden rounded-xl border border-border/50">
+                            <Image src="/logo.png" alt="CivicPulse" fill className="object-cover" />
                         </div>
                     </div>
                     <div className="hidden sm:block">
