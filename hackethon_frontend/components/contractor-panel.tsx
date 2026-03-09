@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { toast } from 'sonner'
 
 const ACCENT = '#a855f7'
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000'
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://chirag11092004-civicpulse-api.hf.space'
 
 interface ContractorPanelProps {
   selectedLocation?: { lat: number; lng: number } | null

@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { MessageCircle, X, Send, Sparkles, Bot, User, Loader2 } from 'lucide-react'
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000'
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://chirag11092004-civicpulse-api.hf.space'
 
 interface Message {
     id: string
@@ -151,8 +151,8 @@ export default function AiChat() {
                                 >
                                     <div
                                         className={`flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full ${msg.role === 'user'
-                                                ? 'bg-orange-500/20'
-                                                : 'bg-teal-500/20'
+                                            ? 'bg-orange-500/20'
+                                            : 'bg-teal-500/20'
                                             }`}
                                     >
                                         {msg.role === 'user' ? (
@@ -163,8 +163,8 @@ export default function AiChat() {
                                     </div>
                                     <div
                                         className={`max-w-[80%] rounded-2xl px-3.5 py-2.5 text-sm leading-relaxed ${msg.role === 'user'
-                                                ? 'bg-orange-500/15 text-foreground'
-                                                : 'bg-secondary/80 text-foreground'
+                                            ? 'bg-orange-500/15 text-foreground'
+                                            : 'bg-secondary/80 text-foreground'
                                             }`}
                                     >
                                         {msg.content}
